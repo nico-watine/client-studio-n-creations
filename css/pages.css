@@ -4,20 +4,22 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.intro-box {
+#tech-setup main {
+  margin-top: 5em; }
+#tech-setup .intro-box {
   background: #fff;
-  box-shadow: 0 0 0.1875em 0 #333;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 0.625rem 0 rgba(0, 0, 0, 0.3);
   margin-bottom: 3.75em;
-  border-radius: 0.25em;
+  border-radius: 0.3125em;
   padding: 2.5rem 4.375rem 1.25rem;
   float: left;
   display: block;
   margin-right: 1.75788%;
   width: 87.28027%;
   margin-left: 6.35987%; }
-  .intro-box:last-child {
+  #tech-setup .intro-box:last-child {
     margin-right: 0; }
-  .intro-box h3 {
+  #tech-setup .intro-box h3 {
     margin-bottom: 1.875rem; }
 
 h3.form-title {
@@ -42,12 +44,7 @@ label span {
   display: inline-block; }
 
 .form-row {
-  display: block;
   margin-bottom: 1.875em; }
-  .form-row::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 .input-container {
   margin-top: 1.375rem; }
@@ -118,8 +115,20 @@ label span {
   display: table-cell;
   vertical-align: bottom; }
 
-.end {
-  margin: 3.75em auto; }
+.form-row#end {
+  padding: 0 1em; }
+
+#thats-all {
+  text-align: center;
+  background: #fff;
+  border-radius: 0.3125em;
+  padding: 1.25em 0.625em 1.875em;
+  max-width: 25em;
+  width: 100%;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 0.625rem 0 rgba(0, 0, 0, 0.3);
+  margin: 1.875em auto 2.5em; }
+  #thats-all h3 {
+    margin-bottom: 1.25rem; }
 
 @media screen and (max-width: 62.5em) {
   .intro-box {
@@ -195,60 +204,3 @@ label span {
 
   .intro-box {
     padding: 0.625rem 0.9375rem; } }
-input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="month"],
-input[type="week"],
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="time"],
-input[type="url"],
-input[type="color"],
-textarea {
-  background-color: #FFF;
-  font-family: inherit;
-  border: 1px solid #CCC;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
-  color: rgba(0, 0, 0, 0.75);
-  display: block;
-  font-size: 0.875rem;
-  margin: 0px 0px 1rem;
-  padding: 0.5rem;
-  height: auto;
-  width: 100%;
-  box-sizing: border-box;
-  -webkit-transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
-          transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s; }
-
-.form-button {
-  float: left;
-  display: block;
-  margin-right: 2.84259%;
-  width: 48.57871%; }
-  .form-button:last-child {
-    margin-right: 0; }
-
-.form-row#message-box {
-  margin: 1.5625em 0; }
-  .form-row#message-box textarea {
-    height: 100px; }
-
-/* Adjust margin for form elements below */
-input[type="file"],
-input[type="checkbox"],
-input[type="radio"],
-select {
-  margin: 0 0 1rem 0; }
-
-input[type="checkbox"] + label,
-input[type="radio"] + label {
-  display: inline-block;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
-  margin-bottom: 0;
-  vertical-align: baseline; }

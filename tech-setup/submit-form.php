@@ -1,5 +1,5 @@
 <?php 
-$ToEmail = 'contact@studioncreations.com'; //ex. admin@scriptgates.com or scriptgates@gmail.com
+$ToEmail = 'nico@studioncreations.com'; //ex. admin@scriptgates.com or scriptgates@gmail.com
 $EmailSubject = "Client Tech Stack Survey"."\n"; 
 $mailheader = "From: ".$_POST["email"]."\n";
 $mailheader .= "Reply-To: ".$_POST["email"]."\n";  
@@ -11,6 +11,6 @@ $MESSAGE_BODY .= "Linux Distro:   ".($_POST["ubuntu"]).($_POST["fedora"]).($_POS
 $MESSAGE_BODY .= "Web Browsers:   ".($_POST["chrome"]).($_POST["safari"]).($_POST["internet-explorer"]).($_POST["firefox"]).($_POST["opera"]).($_POST["browser-unsure"])."\n"; 
 mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Error!"); 
 
-header("Location: thanks.html");
+header("Location: thanks.php");
 ?>
 

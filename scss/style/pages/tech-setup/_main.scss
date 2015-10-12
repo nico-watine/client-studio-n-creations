@@ -1,19 +1,27 @@
 @import "../../settings/_settings.scss";
 
+#tech-setup {
 
-.intro-box {
-	background: #fff;
-	box-shadow: 0 0 em(3) 0 #333;
-	margin-bottom: em(60);
-	border-radius: em(4);
-	padding: rem(40) rem(70) rem(20);
-	@include span-columns(14 of 16);
-	@include shift(1);
-
-	h3 {
-		margin-bottom: rem(30);
+	main {
+		margin-top: em(80);
 	}
+	
+	.intro-box {
+		background: #fff;
+		// box-shadow: 0 0 em(3) 0 #333;
+		box-shadow: $z-2;
+		margin-bottom: em(60);
+		border-radius: em(5);
+		padding: rem(40) rem(70) rem(20);
+		@include span-columns(14 of 16);
+		@include shift(1);
+
+		h3 {
+			margin-bottom: rem(30);
+		}
+	}	
 }
+
 
 h3.form-title {
 	margin-bottom: em(30);
@@ -38,7 +46,7 @@ label {
 }
 
 .form-row {
-	@include row;
+	// @include row;
 	margin-bottom: em(30);
 }
 
@@ -103,8 +111,23 @@ label {
 	}
 }
 
-.end {
-	margin: em(60) auto;
+.form-row#end {
+	padding: 0 em(16);
+}
+
+#thats-all {
+	text-align: center;
+	background: #fff;
+	border-radius: em(5);
+	padding: em(20) em(10) em(30);
+	max-width: em(400);
+	width: 100%;
+	box-shadow: $z-2;
+	margin: em(30) auto em(40);
+
+	h3 {
+		margin-bottom: rem(20);
+	}
 }
 
 @include media($large) {

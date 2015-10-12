@@ -5,32 +5,24 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+	<link rel="preconnect" href="http://cdn.studioncreations.com">
 	<title>Tech Setup Survey</title>
 	<meta name="description" content="">
-	<link type="text/plain" rel="author" href="../humans.txt">
 
-	<link rel="apple-touch-icon" href="../apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="../touch-icon-192x192.png">
-	<link rel="shortcut icon" href="../favicon.ico">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/plain" rel="author" href="/humans.txt">
 	
-	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="<?php autoVer('/css/core.css'); ?>" />
-	
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<![endif]-->
+	<link rel="stylesheet" href="<?php autoVer('/css/pages.css'); ?>" />
+	<script src="/js/modernizr-min.js"></script>
 </head>
-<body>
+<body id="tech-setup">
 
 <header>
 	<div class="row" id="nav-bar">
 		<a href="/" class="title" id="index-link"><span id="large">Studio N Creations</span><span id="mini">SNC</span></a>
 		<div id="button-wrapper">
-			<button class="menu-toggle" id="trigger-overlay" type="button"><span id="word">Menu</span><span id="hamburger"></span></button>
+			<!-- <button class="menu-toggle" id="trigger-overlay" type="button"><span id="word">Menu</span><span id="hamburger"></span></button> -->
 		</div>
 	</div>
 </header>
@@ -243,28 +235,30 @@
 			</div>
 		</div>
 		<hr>
-		<section class="end">
-			<h3>That's all folks!</h3>
-			<button type="submit" name="submit" id="submit" class="button big-green-button">Send away...</button>
-		</section>
+		<div class="form-row" id="end">
+			<div id="thats-all">
+				<h3>That's all folks!</h3>
+				<button type="submit" name="submit" id="submit" class="button big-green-button">Send away...</button>
+			</div>
+		</div>
 	</form>
 </main>
 
 
 <footer>
-	<div class="outer-container">
+	<div class="outer-container padding">
 		<div class="row">
 			<ul class="footer-menu">
 				<li><a href="/">HOME</a></li>
-				<li><a href="/what-we-do.html">SERVICES</a></li>
-				<li><a href="/portfolio">PORTFOLIO</a></li>
-				<li><a href="/about-us.html">ABOUT</a></li>
-				<li id="contact"><a href="/contact.html">CONTACT</a></li>
+				<li><a href="/what-we-do/">SERVICES</a></li>
+				<li><a href="/portfolio/">PORTFOLIO</a></li>
+				<li><a href="/about-us/">ABOUT</a></li>
+				<li id="contact"><a href="/contact/">CONTACT</a></li>
 			</ul>
 		</div>
 		<div class="row">
-			<p>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="../img/footer/facebook.png" alt="Facebook Link"></a></p>
-			<p>POWERED BY <span><img src="../img/footer/html5-shield.png" alt="HTML5 Shield"></span></p>
+			<h6>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="/img/footer/facebook.png" alt="Facebook Link"></a></h6>
+			<h6 id="html5-powered">powered by <img src="/img/footer/html5-shield.png" alt="HTML5 Shield"></h6>
 		</div>
 	</div>
 </footer>
@@ -293,6 +287,8 @@
 		</ul>
 	</nav>
 </div>
-<script src="../js/scripts.min.js"></script>
+
+<script src="<?php autoVer('/js/nav-min.js'); ?>"></script>
+
 </body>
 </html>

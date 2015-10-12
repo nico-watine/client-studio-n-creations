@@ -1,5 +1,8 @@
+<?php 
+	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,35 +15,26 @@
 	<link rel="apple-touch-icon" href="../apple-touch-icon.png">
 	<link rel="icon" sizes="192x192" href="../touch-icon-192x192.png">
 	<link rel="shortcut icon" href="../favicon.ico">
+
 	
 	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="<?php autoVer('/css/core.css'); ?>" />
 	
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="../css/ie.css">
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
 <body>
 
-<header class="top-bar">
-	<div class="outer-container">
-		<div class="row">
-			<div class="logo-wrapper">
-				<a class="title" href="/">snc</a>
-			</div> 
-			<nav class="nav-collapse">
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li class="active"><a href="#">Services</a></li>
-					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/about-us.html">About Us</a></li>
-					<li><a href="/contact.html">Contact</a></li>
-					<li><a href="http://blog.studioncreations.com">Blog</a></li>
-				</ul>
-			</nav>
+<header>
+	<div class="row" id="nav-bar">
+		<a href="/" class="title" id="index-link"><span id="large">Studio N Creations</span><span id="mini">SNC</span></a>
+		<div id="button-wrapper">
+			<button class="menu-toggle" id="trigger-overlay" type="button"><span id="word">Menu</span><span id="hamburger"></span></button>
 		</div>
 	</div>
 </header>
+
 
 <main class="text-center">
 	<div class="outer-container">
@@ -275,7 +269,30 @@
 	</div>
 </footer>
 
-
+<div class="overlay overlay-slidedown">
+	<nav>
+		<ul>
+			<li class="top-level">
+				<a href="/">Home</a>
+			</li>
+			<li class="top-level">
+				<a href="/what-we-do/">What We Do</a>
+			</li>
+			<li class="parent">
+				<a href="/portfolio/">Portfolio</a>
+			</li>
+			<li class="sub-item">
+				<a href="/portfolio/jardin-de-france">Project Profile - Jardin de France</a>
+			</li>
+			<li class="top-level">
+				<a href="/about-us/">About Us</a>
+			</li>
+			<li class="top-level" id="last">
+				<a href="/contact/">Contact</a>
+			</li>
+		</ul>
+	</nav>
+</div>
 <script src="../js/scripts.min.js"></script>
 </body>
 </html>

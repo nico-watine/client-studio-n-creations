@@ -1,0 +1,31 @@
+@import "../settings/_settings.scss";
+
+.outer-container {
+	@include outer-container;
+}
+
+.row {
+	@include row;
+}
+
+.side-padding {
+	padding: 0 1em;
+}
+
+.height-wrapper {
+    min-height: 100%;
+    position:relative;
+
+	main {
+		padding-bottom: em(160);
+	}
+
+	footer {
+		position: absolute;
+		bottom: 0px;
+	}
+}
+
+.text-center {
+	text-align: center;
+}

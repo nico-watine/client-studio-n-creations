@@ -1,0 +1,61 @@
+@import "../settings/_settings.scss";
+
+.top-bar {
+	height: 55px;
+	width: 100%;
+}
+
+.logo-wrapper {
+	margin-left: 15px;
+
+	a {
+		font-size: 45px;
+		line-height: 55px;
+	}
+}
+
+.nav-collapse {
+	float: right;
+	width: auto;
+	border-right: 2px solid white;
+	border-left: 1px solid white;
+
+	a {
+		border-left: 1px solid white;
+		padding: 16px 32px;
+	}
+}
+
+.nav-collapse li {
+	width: auto;
+}
+
+
+footer {
+	height: 160px;
+	padding: 32px 0 0 0;
+
+	p {
+		width: 100%;
+	}
+
+	p,
+	ul.footer-menu li a {
+		font-size: 12px;
+		letter-spacing: 1px;
+		margin: 0 0 5px 0;
+	}
+}
+
+ul.footer-menu {
+	margin: 0 0 6px;
+	width: 100%;
+
+	li {
+		padding-left: 13px;
+	}
+}
+
+
+
+

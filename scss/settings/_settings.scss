@@ -1,0 +1,35 @@
+
+// Typography Variables
+$text-color: #333;
+$link-color: #222;
+$hr-color: #ccc;
+
+$baseline: 1.4em; //22px
+
+$body-font-family: 'Ubuntu', sans-serif;
+$body-font-weight: 300;
+$header-font-family: 'Knul ExtraBold', sans-serif;
+
+$h1-size: em(63); 
+$h2-size: em(45); 
+$h3-size: em(31); 
+$h4-size: em(22);
+$h5-size: em(16); 
+$h6-size: em(12);
+
+// Visual Components (border-radius, etc...)
+$box-shadow: 0px 0px rem(4) rem(1);
+$box-shadow-hover: 0px 0px rem(3) 0px;
+$standard-radius: rem(4);
+$text-shadow: rem(1) rem(1) rem(3);
+$text-shadow-hover: 0px 0px rem(3);
+$title-text-shadow: 0 rem(2) rem(3);
+
+// Colors
+$dark-red: #c74d5a;
+$light-blue: #58c4be;
+$lime-green: #c8dd64;
+$light-red: #f16a6c;
+$dark-grey: #222;
+$dark-blue: #556371;
+

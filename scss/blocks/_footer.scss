@@ -1,0 +1,72 @@
+@import "../settings/_settings.scss";
+
+
+footer {
+	height: em(160);
+	width: 100%;
+	left: 0;
+	background:#696969;
+	box-shadow: inset 0px 0px em(5) em(1) #000;
+	text-align: right;
+	padding: em(32);
+
+	@include media($android) {
+		text-align: center;
+	}
+
+	p,
+	ul.footer-menu li a {
+		font-size: rem(12);
+		color: #fff;
+		letter-spacing: rem(0.75);
+		margin: 0 0 rem(5) 0;
+
+		span {
+			img {
+				max-width: 20px;
+				height: 28px;
+			}
+		}
+	}
+}
+
+ul.footer-menu {
+	float: right;
+	list-style-type: none;
+	margin: 0 0 rem(6);
+
+	li {
+		display: inline-block;
+		padding-left: rem(13);
+
+		a {
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	@include media($android) {
+		float: none;
+		padding: 0;
+		
+		li {
+			visibility: hidden;
+			display: none;
+			padding: 0;
+		}
+
+		li#contact {
+			visibility: visible;
+			display: block;
+		}
+	}
+}
+
+img#facebook {
+	width: 25px;
+	height: 25px;
+	margin-bottom: 8px;
+}

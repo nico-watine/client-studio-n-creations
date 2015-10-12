@@ -1,0 +1,128 @@
+@import "../settings/_settings.scss";
+@import "_fonts.scss";
+
+html {
+	font-size: 1em;
+}
+
+html,
+input,
+button,
+textarea {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	color: $text-color;
+	font-weight: $body-font-weight;
+	font-family: $body-font-family;
+	line-height: $baseline;
+}
+
+p {
+	margin-bottom: 1.4rem;
+}
+
+a,
+a:visited {
+	color: $link-color;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+hr {
+	border: 0;
+	background-color: $hr-color;
+	height: 1px;
+	margin: $baseline 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4,
+h5,
+h6 {
+	margin: 0 0 .5rem 0;
+	line-height: 1.2;
+	font-weight: $body-font-weight;
+}
+
+h5,
+h6 {
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+p.large {
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: $h1-size;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: $h2-size;
+}
+
+h3,
+p.large {
+	font-size: $h3-size;
+}
+
+h4 {
+	font-size: $h4-size;
+}
+
+h5 {
+	font-size: $h5-size;
+}
+
+h6 {
+	font-size: $h6-size;
+}
+
+@include media($medium) {
+	
+	h1 {
+		font-size: $h2-size;
+	}
+
+	h2 {
+		font-size: $h3-size;
+	}
+
+	h3,
+	p.large {
+		font-size: $h4-size;
+	}
+
+	h4 {
+		font-size: $h5-size;
+		font-weight: 400;
+	}
+
+	h5 {
+		font-size: $h6-size;
+		font-weight: 400;
+	}
+
+	h6 {
+		font-size: $h6-size;
+		font-weight: 400;
+	}
+}
+
+.title {
+	font-family: 'Knul Bold', sans-serif;
+	font-size: rem(60);
+}
+
+

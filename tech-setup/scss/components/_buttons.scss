@@ -1,0 +1,40 @@
+@import "../settings/_settings.scss";
+
+button {
+    border: none;
+}
+
+a.button,
+button {
+    cursor: pointer;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    border-radius: em(4);
+    font-size: rem(26);
+    padding: 1rem 2rem 1.0625rem;
+    text-decoration: none;
+    color: #fff;
+
+    @include transition (background-color 200ms ease-out 0s);
+    @include transition (color 200ms ease-out 0s);
+
+    &:hover {
+        color: #000;
+    }
+
+    @include media($medium) {
+        font-size: rem(21);
+        padding: .9rem 1.3rem 1rem;
+    }
+}
+
+.big-green-button,
+a.big-green-button {
+    background-color: #b9d43a;
+
+    &:hover {
+        background-color: scale-color(#b9d43a, $lightness: 25%);
+    }
+}

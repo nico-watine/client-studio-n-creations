@@ -263,7 +263,7 @@
 	</div>
 </footer>
 
-<div class="overlay overlay-slidedown">
+<!-- <div class="overlay overlay-slidedown">
 	<nav>
 		<ul>
 			<li class="top-level">
@@ -286,7 +286,7 @@
 			</li>
 		</ul>
 	</nav>
-</div>
+</div> -->
 
 <script src="<?php autoVer('/js/nav-min.js'); ?>"></script>
 

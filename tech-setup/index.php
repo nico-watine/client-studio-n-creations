@@ -22,7 +22,6 @@
 	<div class="row" id="nav-bar">
 		<a href="/" class="title" id="index-link"><span id="large">Studio N Creations</span><span id="mini">SNC</span></a>
 		<div id="button-wrapper">
-			<!-- <button class="menu-toggle" id="trigger-overlay" type="button"><span id="word">Menu</span><span id="hamburger"></span></button> -->
 		</div>
 	</div>
 </header>
@@ -248,45 +247,12 @@
 <footer>
 	<div class="outer-container padding">
 		<div class="row">
-			<ul class="footer-menu">
-				<li><a href="/">HOME</a></li>
-				<li><a href="/what-we-do/">SERVICES</a></li>
-				<li><a href="/portfolio/">PORTFOLIO</a></li>
-				<li><a href="/about-us/">ABOUT</a></li>
-				<li id="contact"><a href="/contact/">CONTACT</a></li>
-			</ul>
-		</div>
-		<div class="row">
 			<h6>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="/img/footer/facebook.png" alt="Facebook Link"></a></h6>
 			<h6 id="html5-powered">powered by <img src="/img/footer/html5-shield.png" alt="HTML5 Shield"></h6>
 		</div>
 	</div>
 </footer>
 
-<!-- <div class="overlay overlay-slidedown">
-	<nav>
-		<ul>
-			<li class="top-level">
-				<a href="/">Home</a>
-			</li>
-			<li class="top-level">
-				<a href="/what-we-do/">What We Do</a>
-			</li>
-			<li class="parent">
-				<a href="/portfolio/">Portfolio</a>
-			</li>
-			<li class="sub-item">
-				<a href="/portfolio/jardin-de-france">Project Profile - Jardin de France</a>
-			</li>
-			<li class="top-level">
-				<a href="/about-us/">About Us</a>
-			</li>
-			<li class="top-level" id="last">
-				<a href="/contact/">Contact</a>
-			</li>
-		</ul>
-	</nav>
-</div> -->
 
 <script src="<?php autoVer('/js/nav-min.js'); ?>"></script>
 

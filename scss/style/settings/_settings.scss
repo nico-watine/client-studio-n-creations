@@ -1,0 +1,51 @@
+
+// Typography Variables
+$text-color: #333;
+$link-color: #222;
+$hr-color: #ccc;
+
+$baseline: 1.4em; //22px
+
+
+$title-font-family: 'Lintel ExtraBold', sans-serif;
+$header-font-family: 'Lintel Medium', sans-serif;
+$header-font-weight: 400;
+$body-font-family: 'Open Sans', sans-serif;
+$body-font-weight: 300;
+
+$header-letter-spacing: rem(0.5);
+$h5-h6-letter-spacing: rem(1.2);
+
+$h1-size: em(63); 
+$h2-size: em(45); 
+$h3-size: em(31); 
+$h4-size: em(22);
+$h5-size: em(16); 
+$h6-size: em(12);
+
+// Visual Components (border-radius, etc...)
+$box-shadow: 0 0 rem(4) rem(1);
+$box-shadow-hover: 0 0 rem(3) 0;
+$standard-radius: rem(4);
+$text-shadow: rem(1) rem(1) rem(3);
+$text-shadow-hover: rem(1) rem(1) rem(1);
+$title-text-shadow: 0 rem(2) rem(3);
+
+// Colors
+$dark-red: #c74d5a;
+$light-blue: #58c4be;
+$lime-green: #c8dd64;
+$light-red: #F26B6C;
+$dark-grey: #222;
+$dark-blue: #566270;
+
+
+$shadow-z-2: 0 rem(2) rem(2) 0 rgba(0,0,0,0.20), 0 rem(6) rem(10) 0 rgba(0,0,0,0.30);
+
+
+// BOX-SHADOW VALUES //
+$z-1: 0 rem(1) rem(4) 0 rgba(0,0,0,0.37);
+$z-2: 0 rem(2) rem(2) 0 rgba(0,0,0,0.20), 0 rem(6) rem(10) 0 rgba(0,0,0,0.30);
+$z-3: 0 rem(11) rem(7) 0 rgba(0,0,0,0.19), 0 rem(13) rem(25) 0 rgba(0,0,0,0.30);
+$z-4: 0 rem(14) rem(12) 0 rgba(0,0,0,0.17), 0 rem(20) rem(40) 0 rgba(0,0,0,0.30);
+$z-5: 0 rem(17) rem(17) 0 rgba(0,0,0,0.15), 0 rem(27) rem(55) 0 rgba(0,0,0,0.30);

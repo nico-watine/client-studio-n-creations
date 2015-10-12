@@ -1,0 +1,290 @@
+@import "../settings/_settings.scss";
+
+$max-450: "only screen and (max-width : 28.125em)";
+$max-420: "only screen and (max-width : 26.250em)";
+
+
+.row#nav-bar {
+	background: #fff url("/img/nav/top-bar/nav-detail.png") no-repeat left;
+	background-size: auto 100%;
+	height: em(55);
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	top: 0;
+	box-shadow: $z-1;
+
+	#button-wrapper {
+		position: absolute;
+		right: 0;
+		background: url("/img/nav/top-bar/button-wrapper.png") no-repeat right;
+		background-size: auto 100%;
+		height: 100%;
+		width: em(180);
+	}
+}
+
+button.menu-toggle {
+	font-size: rem(28);
+	position: absolute;
+	top: rem(8);
+	right: rem(32);
+
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+
+	color: #fff;
+	text-shadow: 0 rem(1) rem(2) #000;
+
+	&:hover {
+		margin-top: rem(2);
+		text-shadow: 0 rem(1) rem(1) #000;
+	}
+
+	#word {
+		font-family: $title-font-family;
+		text-transform: uppercase;
+		letter-spacing: em(1);
+	}
+}
+
+// Hamburger Icon
+#hamburger:before {
+	font-family: "nav";
+	content: "\2261"; 
+	padding-left: rem(8);
+}
+
+// Close Icon
+#hamburger.active:before {
+	margin-right: rem(-4);
+	content: "\78"; 
+}
+
+a#index-link {
+	font-size: rem(36);
+	position: absolute;
+	top: rem(6);
+	left: rem(32);
+	text-shadow: 0 rem(1) rem(2) #000;
+	color: #fff;
+
+	#mini {
+		visibility: hidden;
+		display: none;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+
+.overlay {
+	position: fixed;
+	z-index: 55;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: $dark-blue;
+	background: rgba(115,133,151,0.85);
+	overflow: scroll-y;
+}
+
+.overlay nav {
+	text-align: right;
+	padding-right: em(32);
+	position: relative;
+	margin-top: em(80);
+}
+
+.overlay ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+
+	li {
+
+		a {
+			color: #fff;
+			display: block;
+		}
+
+		&:hover {
+			a {
+				color: #333;
+				text-decoration: none;
+				text-shadow: none;
+				background: #fff;
+				box-shadow: $z-1;
+				border-radius: rem(5);
+			}
+		}
+	}
+
+	li#last {
+		margin-bottom: 0;
+	}
+}
+
+li.parent,
+li.top-level {
+	a {
+		text-shadow: 0 rem(2) rem(1) #000;
+		font-size: rem(54);
+		padding: 0 rem(5);
+		font-family: $header-font-family;
+
+		&:hover {
+			text-shadow: 0 rem(1) 0 #000;
+		}
+	}
+}
+
+li.parent {
+	margin-bottom: 0;
+}
+
+li.top-level {
+	margin-bottom: rem(54);
+}
+
+li.sub-item {
+	margin-bottom: rem(54);
+
+	a {
+		font-size: rem(30);
+		padding: rem(10) rem(5);
+		text-shadow: 0 rem(2) rem(1) #000;
+
+		&:hover {
+			text-shadow: 0 rem(1) 0 #000;
+		}
+	}
+}
+
+
+/* Effects */
+.overlay-slidedown {
+	visibility: hidden;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
+	transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+}
+
+.overlay-slidedown.open {
+	visibility: visible;
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transition: -webkit-transform 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out;
+}
+
+@include media($medium) { // 750px
+	.row#nav-bar {
+		height: em(50);
+	}
+
+	a#index-link {
+		font-size: rem(28);
+		left: rem(20);
+		top: rem(8);
+	}
+
+	button.menu-toggle {
+		font-size: rem(24);
+		right: rem(20);
+	}
+
+	#hamburger:before {
+		margin-top: rem(4);
+	}
+
+	#hamburger.active:before {
+		padding-left: rem(7);
+		margin-right: rem(-2);
+	}
+}
+
+
+@include media($android) { // 610px
+	.row#nav-bar {
+		#button-wrapper {
+			background: transparent;
+		}
+	}
+
+	button.menu-toggle {
+		text-shadow: 0 rem(1) rem(4) #000;
+
+		#word {
+			visibility: hidden;
+			display: none;
+		}
+
+		&:hover {
+			text-shadow: 0 rem(1) rem(2) #000;
+		}
+
+	}
+
+	.overlay nav {
+		text-align: center;
+		padding: 0;
+		margin-top: em(63);
+
+		ul {
+			width: 100%;
+		}
+	}
+
+	li.parent,
+	li.top-level {
+		a {
+			font-size: rem(40);
+		}
+	}
+
+	li.sub-item {
+		a {
+			font-size: rem(20);
+		}
+	}
+
+	li.sub-item,
+	li.top-level {
+		margin-bottom: em(34);
+	}
+}
+
+@media #{$max-450} {
+	a#index-link {
+		#large {
+			visibility: hidden;
+			display: none;
+		}
+		#mini {
+			visibility: visible;
+			display: block;
+		}
+	}
+}
+
+@media #{$max-420} {
+	button.menu-toggle {
+		text-shadow: 0 rem(1) rem(2) #000;
+
+		&:hover {
+			text-shadow: 0 rem(1) rem(1) #000;
+		}
+
+	}
+}

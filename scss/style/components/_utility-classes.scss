@@ -1,0 +1,44 @@
+@import "../settings/_settings.scss";
+
+.outer-container {
+	@include outer-container;
+}
+
+.row {
+	@include row;
+}
+
+.side-padding {
+	padding: 0 1em;
+}
+
+.omega {
+	@include omega;
+}
+
+.height-wrapper {
+    min-height: 100%;
+    position:relative;
+
+	main {
+		padding-bottom: em(160);
+	}
+
+	footer {
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+	}
+}
+
+.padding {
+	padding: 0 em(16);
+}
+
+.bottom-margin {
+	margin-bottom: rem(20);
+}
+
+span.inline {
+	display: inline-block;
+}

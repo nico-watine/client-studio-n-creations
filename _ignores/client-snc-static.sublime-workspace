@@ -135,6 +135,25 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 783,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// NORMALIZE.CSS\n@import \"style/settings/_normalize.scss\";\n\n// BOURBON-NEAT FILES\n@import \"bourbon\";\n@import \"grid-settings\";\n@import \"neat\";\n\n\n\n\n\n\n",
+			"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/pages.scss",
+			"file_size": 652,
+			"file_write_time": 130891446520000000,
+			"settings":
+			{
+				"buffer_size": 148,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -237,10 +256,18 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com"
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/css",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss"
 	],
 	"file_history":
 	[
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/assets/neat/_grid-settings.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/core.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/assets/neat/settings/_grid.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/pages.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/index.html",
 		"/Users/nico/Web Development/New Project/Site Folder/new-project.com/.gitignore",
 		"/Users/nico/Web Development/New Project/Site Folder/new-project.com/.htaccess",
 		"/Users/nico/Web Development/New Project/Site Folder/new-project.com/js/src/ie.js",
@@ -362,13 +389,7 @@
 		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/jquery/src/offset.js",
 		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss",
 		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/notification.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/js/app.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/quota-management-api.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/modernizr.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/scss/location/_gmap.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/404.html",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/jquery/src/ajax/script.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/jquery/src/effects/animatedSelector.js"
+		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/js/app.js"
 	],
 	"find":
 	{
@@ -552,8 +573,186 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								384,
+								384
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/pages.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -606,6 +805,26 @@
 		"selected_items":
 		[
 			[
+				"gris",
+				"assets/neat/_grid-settings.scss"
+			],
+			[
+				"gri",
+				"assets/neat/settings/_grid.scss"
+			],
+			[
+				"grise",
+				"assets/neat/_grid-settings.scss"
+			],
+			[
+				"sts",
+				"scss/style.scss"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
 				"st",
 				"scss/style.scss"
 			],
@@ -614,20 +833,12 @@
 				"assets/neat/settings/_visual-grid.scss"
 			],
 			[
-				"in",
-				"index.php"
-			],
-			[
 				"css",
 				"_ignores/css-references.css"
 			],
 			[
 				".g",
 				".gitignore"
-			],
-			[
-				"grise",
-				"assets/neat/_grid-settings.scss"
 			],
 			[
 				"set",
@@ -646,10 +857,6 @@
 				"scss/settings/_development-styles.scss"
 			],
 			[
-				"gri",
-				"assets/neat/_grid-settings.scss"
-			],
-			[
 				"but",
 				"scss/components/_buttons.scss"
 			],
@@ -659,10 +866,6 @@
 			],
 			[
 				"gridse",
-				"assets/neat/_grid-settings.scss"
-			],
-			[
-				"gris",
 				"assets/neat/_grid-settings.scss"
 			],
 			[
@@ -740,10 +943,6 @@
 			[
 				"rob",
 				"robots.txt"
-			],
-			[
-				"sts",
-				"scss/style.scss"
 			],
 			[
 				"res",
@@ -1129,6 +1328,10 @@
 			[
 				"sn",
 				"~/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/_ignores/snc.sublime-project"
+			],
+			[
+				"cli",
+				"~/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/_ignores/client-snc-static.sublime-project"
 			],
 			[
 				"cl",

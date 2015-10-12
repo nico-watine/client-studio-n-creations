@@ -1,0 +1,133 @@
+@import "../settings/_settings.scss";
+
+button {
+    border: none;
+}
+
+a.button,
+button {
+    cursor: pointer;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    border-radius: rem(5);
+    font-size: rem(26);
+    padding: 1rem 2rem 1.0625rem;
+    text-decoration: none;
+    color: #fff;
+
+    @include transition (background-color 200ms ease-out 0s);
+    @include transition (color 200ms ease-out 0s);
+
+    &:hover {
+        color: #000;
+    }
+
+    @include media($medium) {
+        font-size: rem(21);
+        padding: .9rem 1.3rem 1rem;
+    }
+}
+
+a.opaque-button {
+    background: rgba(255, 255, 255, .4);
+    border: rem(2) solid #f1f1f1;
+    box-shadow: $box-shadow #222;
+    @include transition (background 70ms ease-out 0s);
+
+    &:hover {
+        box-shadow: $box-shadow-hover #000;
+        background: rgba(255, 255, 255, .9);
+    }
+}
+
+a.button.blue-button {
+    background-color: $dark-blue;
+    box-shadow: 0px rem(2) rem(2) 0px rgba(0,0,0,0.20), 0px rem(6) rem(10) 0px rgba(0,0,0,0.30);
+    border: rem(1) solid $dark-blue;
+
+    &:hover {
+        color: #fff;
+        border: rem(1) solid #f1f1f1;
+        text-shadow: 0px rem(1) rem(3) #000;
+        box-shadow: 0px rem(1) rem(4) 0px rgba(0,0,0,0.37);
+        background-color: #9EB5CE;
+    }
+}
+
+a.big-blue-button {
+    background-color: #718294;
+
+    &:hover {
+        background-color: #abb5c0;
+    }
+}
+
+a.big-blue-button#deck-on-fountainview {
+    background-color: #5EBDDF;
+
+    &:hover {
+        background-color: scale-color(#5EBDDF, $lightness: 20%);
+    }
+}
+
+a.big-red-button {
+    background-color: $light-red;
+
+    &:hover {
+        background-color: scale-color($light-red, $lightness: 20%);
+    }
+}
+
+a.button#greencare {
+    background-color: #624012;
+    color: #fff;
+
+    &:hover {
+        color: #222;
+        background-color: #A0CE38;
+    }
+}
+
+a.big-red-button#a-plus-permit {
+    background-color: #ca2832;
+
+    &:hover {
+        background-color: #f7f7f7;
+        color: #ca2832;
+    }
+}
+
+.big-green-button,
+a.big-green-button {
+    background-color: #b9d43a;
+
+    &:hover {
+        background-color: scale-color(#b9d43a, $lightness: 25%);
+    }
+}
+
+
+a.big-yellow-button {
+    background-color: #E5B627;
+
+    &:hover {
+        background-color: scale-color(#E5B627, $lightness: 25%);
+    }
+}
+
+
+a.button#dmesa-button {
+    background: url('/img/portfolio/dmesa/button/button.jpg');
+    background-size: cover;
+
+    &:hover {
+        background: url('/img/portfolio/dmesa/button/hover.jpg');
+        background-size: cover;
+    }
+}
+
+a.open-popup-link {
+    outline: none;
+}

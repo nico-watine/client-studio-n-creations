@@ -1,0 +1,180 @@
+@import "../settings/_settings.scss";
+@import "_fonts.scss";
+
+html {
+	font-size: 1em;
+}
+
+// TEXT-RENDERING DISABLED FOR SPEED OPTIMIZATION ::
+// html,
+// input,
+// button,
+// textarea {
+// 	-webkit-font-smoothing: antialiased;
+// 	text-rendering: optimizeLegibility;
+// 	-moz-osx-font-smoothing: grayscale;
+// }
+
+body {
+	color: $text-color;
+	font-weight: $body-font-weight;
+	font-family: $body-font-family;
+	line-height: 1.2;
+}
+
+
+a {
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+hr {
+	border: 0;
+	background-color: $hr-color;
+	height: 1px;
+	margin: $baseline 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4,
+h5,
+h6,
+p {
+	margin: 0 0 rem(8);
+}
+
+h1,
+h2 {
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
+	// REMOVED HEADER-LETTER-SPACING (WAS KIND OF UNNECCESSARY) ::
+	// letter-spacing: $header-letter-spacing;
+}
+
+h5,
+h6 {
+	letter-spacing: $h5-h6-letter-spacing;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: $h1-size;
+}
+
+h2 {
+	font-size: $h2-size;
+}
+
+h3 {
+	font-size: $h3-size;
+}
+
+h4 {
+	font-size: $h4-size;
+}
+
+h5 {
+	font-size: $h5-size;
+}
+
+h6 {
+	font-size: $h6-size;
+}
+
+p.large {
+	font-size: rem(22);
+}
+
+@include media($medium) { // 750px
+	
+	h1 {
+		font-size: $h2-size;
+	}
+
+	h2 {
+		font-size: $h3-size;
+	}
+
+	h3 {
+		font-size: $h4-size;
+	}
+
+	h4 {
+		font-size: $h5-size;
+	}
+
+	h5 {
+		font-size: $h6-size;
+	}
+
+	p.large {
+		font-size: rem(20);
+	}
+}
+
+.title {
+	font-family: $title-font-family;
+	letter-spacing: rem(1);
+	text-transform: uppercase;
+}
+
+.header,
+.header-font {
+    font-family: $header-font-family;
+    font-weight: $header-font-weight;
+}
+
+.body,
+.standard {
+	font-family: $body-font-family;
+	font-weight: $body-font-weight;
+}
+
+.shadow {
+	text-shadow: $text-shadow #fff;
+
+	a {
+		&:hover {
+			text-shadow: $text-shadow-hover #fff;
+		}
+	}
+}
+
+.inverse-shadow {
+	text-shadow: $text-shadow #000;
+	color: #fff;
+
+	a {
+		color: #fff !important;
+		&:hover {
+			text-shadow: $text-shadow-hover #000;
+		}
+	}
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}

@@ -1,0 +1,205 @@
+@import "../../settings/_settings.scss";
+
+#tech-setup {
+
+	main {
+		margin-top: em(80);
+	}
+	
+	.intro-box {
+		background: #fff;
+		// box-shadow: 0 0 em(3) 0 #333;
+		box-shadow: $z-2;
+		margin-bottom: em(60);
+		border-radius: em(5);
+		padding: rem(40) rem(70) rem(20);
+		@include span-columns(14 of 16);
+		@include shift(1);
+
+		h3 {
+			margin-bottom: rem(30);
+		}
+	}	
+}
+
+
+h3.form-title {
+	margin-bottom: em(30);
+}
+
+form {
+	@include outer-container;
+	img {
+		margin-bottom: em(16);
+		max-width: 150px;
+	}
+}
+
+label.question {
+	font-size: rem(21);
+}
+
+label {
+	span {
+		display: inline-block;
+	}
+}
+
+.form-row {
+	// @include row;
+	margin-bottom: em(30);
+}
+
+.input-container {
+	margin-top: rem(22);
+}
+
+#name {
+	.input-container {
+		@include span-columns(8 of 16);
+		height: 60px;
+		@include shift(4);
+	}
+}
+
+#computer-os {
+	.input-container {
+		@include span-columns(4 of 12);
+		height: 240px;
+		display: table;
+		text-align: center;
+	}
+
+	.input {
+		display: table-cell;
+		vertical-align: bottom;
+	}
+}
+
+#windows,
+#macintosh,
+#browsers {
+	.input-container {
+		@include span-columns(2 of 12);
+		height: 240px;
+		display: table;
+		text-align: center;
+	}
+
+	.input {
+		display: table-cell;
+		vertical-align: bottom;
+	}
+}
+
+#linux {
+	.row-content {
+		@include span-columns(12 of 16);
+		@include shift(2);
+	}
+
+	.input-container {
+		@include span-columns(3 of 9);
+		height: 240px;
+		display: table;
+		text-align: center;
+	}
+
+	.input {
+		display: table-cell;
+		vertical-align: bottom;
+	}
+}
+
+.form-row#end {
+	padding: 0 em(16);
+}
+
+#thats-all {
+	text-align: center;
+	background: #fff;
+	border-radius: em(5);
+	padding: em(20) em(10) em(30);
+	max-width: em(400);
+	width: 100%;
+	box-shadow: $z-2;
+	margin: em(30) auto em(40);
+
+	h3 {
+		margin-bottom: rem(20);
+	}
+}
+
+@include media($large) {
+	.intro-box {
+		padding: rem(40) rem(30) rem(20);
+	}
+
+	#name {
+		.input-container {
+			@include span-columns(12 of 16);
+			@include shift(2);
+		}
+	}
+
+	#windows,
+	#macintosh,
+	#browsers {
+		.input-container {
+			@include span-columns(3 of 9);
+			height: 240px;
+			display: table;
+			text-align: center;
+
+			@include omega(3n);
+		}
+
+		.input {
+			display: table-cell;
+			vertical-align: bottom;
+		}
+	}
+
+	#linux {
+		.row-content {
+			@include span-columns(12 of 12);
+			@include shift(0);
+		}
+	}
+}
+
+@include media($android) {
+	.intro-box {
+		padding: rem(20) rem(25) rem(0);
+	}	
+
+	#computer-os,
+	#windows,
+	#macintosh,
+	#browsers {
+		.input {
+			display: table-cell;
+			vertical-align: top;
+		}
+	}
+
+	#linux {
+
+		.input-container {
+			margin-top: 0;
+		}
+	}
+}
+
+@include media($small) {
+	#name {
+		.input-container {
+			@include span-columns(12 of 14);
+			@include shift(1);
+		}
+	}
+
+	.intro-box {
+		padding: rem(10) rem(15);
+	}
+}

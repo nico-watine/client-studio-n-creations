@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ind",
+				"_index.scss"
+			],
+			[
+				"tec",
+				"_tech-setup.scss"
+			],
+			[
 				"me",
 				"_menu.scss"
 			],
@@ -18,10 +26,6 @@
 			[
 				"in",
 				"_index.scss"
-			],
-			[
-				"ind",
-				"index/"
 			],
 			[
 				"comp",
@@ -135,6 +139,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/tech-setup/index.php",
+			"settings":
+			{
+				"buffer_size": 10646,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/tech-setup/submit-form.php",
+			"settings":
+			{
+				"buffer_size": 1167,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/components/_forms.scss",
+			"settings":
+			{
+				"buffer_size": 1163,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -143,17 +171,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "sass",
+		"height": 287.0,
+		"last_filter": "html",
 		"selected_items":
 		[
 			[
-				"sass",
-				"Set Syntax: Sass"
-			],
-			[
 				"html",
 				"Set Syntax: HTML"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
 			],
 			[
 				"fetch",
@@ -237,10 +265,35 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com"
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/css",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/components",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/pages",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/pages/tech-setup",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/tech-setup"
 	],
 	"file_history":
 	[
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/tech-setup/submit-form.php",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/index.html",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/pages/tech-setup/_main.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/core.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/pages/tech-setup/_form.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/pages/tech-setup/_tech-setup.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/components/_buttons.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/blocks/_main.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/js/src/contact.js",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/js/src/nav.js",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/js/src/modernizr.js",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/components/_typography.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/settings/_settings.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/pages.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/tech-setup/index.php",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/.htaccess",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/assets/neat/_grid-settings.scss",
+		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/assets/neat/settings/_grid.scss",
 		"/Users/nico/Web Development/New Project/Site Folder/new-project.com/.gitignore",
 		"/Users/nico/Web Development/New Project/Site Folder/new-project.com/.htaccess",
 		"/Users/nico/Web Development/New Project/Site Folder/new-project.com/js/src/ie.js",
@@ -349,30 +402,11 @@
 		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/window-framed.js",
 		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/audio-webaudio-api.js",
 		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/dom-createElement-attrs.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/css-regions.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/scss/_sports-section.scss",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/foundation/scss/foundation/components/_side-nav.scss",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/jquery/src/selector-native.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/scss/_map.scss",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/css-mediaqueries.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/network-eventsource.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/contextmenu.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/scss/_slogan.scss",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/scss/_location-gmap.scss",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/jquery/src/offset.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/notification.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/js/app.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/quota-management-api.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/modernizr.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/scss/location/_gmap.scss",
-		"/Users/nico/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/404.html",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/jquery/src/ajax/script.js",
-		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/jquery/src/effects/animatedSelector.js"
+		"/Users/nico/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/bower_components/modernizr/feature-detects/css-regions.js"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -387,6 +421,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form",
 			"newproject",
 			"example",
 			"width",
@@ -513,8 +548,7 @@
 			" featured-service",
 			"section",
 			"apluspermit",
-			"services",
-			"#"
+			"services"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -552,8 +586,275 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/tech-setup/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1582,
+								1582
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 661.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/tech-setup/submit-form.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/nico/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/scss/style/components/_forms.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								686
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/base-16.ocean-dark(custom).tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -606,6 +907,42 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"index.html"
+			],
+			[
+				"navj",
+				"js/src/nav.js"
+			],
+			[
+				"techsetin",
+				"tech-setup/index.php"
+			],
+			[
+				"typo",
+				"scss/style/components/_typography.scss"
+			],
+			[
+				"sett",
+				"scss/style/settings/_settings.scss"
+			],
+			[
+				"gris",
+				"assets/neat/_grid-settings.scss"
+			],
+			[
+				"gri",
+				"assets/neat/settings/_grid.scss"
+			],
+			[
+				"grise",
+				"assets/neat/_grid-settings.scss"
+			],
+			[
+				"sts",
+				"scss/style.scss"
+			],
+			[
 				"st",
 				"scss/style.scss"
 			],
@@ -614,20 +951,12 @@
 				"assets/neat/settings/_visual-grid.scss"
 			],
 			[
-				"in",
-				"index.php"
-			],
-			[
 				"css",
 				"_ignores/css-references.css"
 			],
 			[
 				".g",
 				".gitignore"
-			],
-			[
-				"grise",
-				"assets/neat/_grid-settings.scss"
 			],
 			[
 				"set",
@@ -646,32 +975,16 @@
 				"scss/settings/_development-styles.scss"
 			],
 			[
-				"gri",
-				"assets/neat/_grid-settings.scss"
-			],
-			[
 				"but",
 				"scss/components/_buttons.scss"
-			],
-			[
-				"typo",
-				"scss/components/_typography.scss"
 			],
 			[
 				"gridse",
 				"assets/neat/_grid-settings.scss"
 			],
 			[
-				"gris",
-				"assets/neat/_grid-settings.scss"
-			],
-			[
 				"stdev",
 				"scss/settings/_development-styles.scss"
-			],
-			[
-				"sett",
-				"scss/settings/_settings.scss"
 			],
 			[
 				"type",
@@ -740,10 +1053,6 @@
 			[
 				"rob",
 				"robots.txt"
-			],
-			[
-				"sts",
-				"scss/style.scss"
 			],
 			[
 				"res",
@@ -1108,14 +1417,6 @@
 			[
 				"red",
 				"_includes/head/redirect.html"
-			],
-			[
-				"posb",
-				"_includes/posts/post-banner.html"
-			],
-			[
-				"head/r",
-				"_includes/head/redirect.html"
 			]
 		],
 		"width": 0.0
@@ -1129,6 +1430,14 @@
 			[
 				"sn",
 				"~/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/_ignores/snc.sublime-project"
+			],
+			[
+				"s",
+				"~/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/_ignores/snc.sublime-project"
+			],
+			[
+				"cli",
+				"~/SNC Projects/Studio N Creations/Site Folder/client.studioncreations.com/_ignores/client-snc-static.sublime-project"
 			],
 			[
 				"cl",
@@ -1169,10 +1478,6 @@
 			[
 				"",
 				"~/SNC Projects/Deck On Fountain View/Site Folder/thedeckonfountainview.com/_ignores/deck.sublime-project"
-			],
-			[
-				"s",
-				"~/SNC Projects/Studio N Creations/Site Folder/studioncreations.com/_ignores/snc.sublime-project"
 			],
 			[
 				"snb",

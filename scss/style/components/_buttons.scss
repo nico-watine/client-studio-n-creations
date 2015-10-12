@@ -1,0 +1,55 @@
+@import "../settings/_settings.scss";
+
+button {
+    border: none;
+}
+
+a.button,
+button {
+    cursor: pointer;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    border-radius: rem(5);
+    font-size: rem(26);
+    padding: 1rem 2rem 1.0625rem;
+    text-decoration: none;
+    color: #fff;
+
+    @include transition (background-color 200ms ease-out 0s);
+    @include transition (color 200ms ease-out 0s);
+
+    &:hover {
+        color: #000;
+    }
+
+    @include media($medium) {
+        font-size: rem(21);
+        padding: .9rem 1.3rem 1rem;
+    }
+}
+
+a.opaque-button {
+    background: rgba(255, 255, 255, .4);
+    border: rem(2) solid #f1f1f1;
+    box-shadow: $box-shadow #222;
+    @include transition (background 70ms ease-out 0s);
+
+    &:hover {
+        box-shadow: $box-shadow-hover #000;
+        background: rgba(255, 255, 255, .9);
+    }
+}
+
+
+.big-green-button,
+a.big-green-button {
+    background-color: #b9d43a;
+
+    &:hover {
+        background-color: scale-color(#b9d43a, $lightness: 25%);
+    }
+}
+
+

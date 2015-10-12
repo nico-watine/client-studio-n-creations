@@ -1,0 +1,74 @@
+@import "../settings/_settings.scss";
+
+footer {
+	background:#696969;
+	padding: em(35) 0;
+	box-shadow: $box-shadow #000 inset;
+	border: em(1) solid #000;
+	text-align: right;
+	color: #fff;
+	font-family: $header-font-family;
+
+	@include media($small-plus) {
+		text-align: center;
+	}
+
+	h6 {
+		margin-bottom: rem(16);
+	}
+
+	img#facebook { 
+		width: rem(30); 
+		height: rem(30); 
+	}
+	
+	#html5-powered {
+		img {
+			width: rem(30);
+			height: rem(42);
+		}
+	}
+}
+
+ul.footer-menu {
+	float: right;
+	list-style-type: none;
+	margin: 0 0 rem(16) 0;
+
+	li {
+		display: inline-block;
+		padding-left: rem(13);
+
+		a {
+			font-size: $h6-size;
+			color: #fff;
+			letter-spacing: $h5-h6-letter-spacing;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	@include media($small-plus) {
+		float: none;
+		padding: 0;
+		
+		li {
+			visibility: hidden;
+			display: none;
+			padding: 0;
+		}
+
+		li#contact {
+			visibility: visible;
+			display: block;
+		}
+	}
+}	
+
+.opaque-footer {
+	background: rgba(22,22,22,0.70);
+}
+

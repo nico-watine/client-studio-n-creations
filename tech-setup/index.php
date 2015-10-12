@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/plain" rel="author" href="/humans.txt">
 	
-	<link rel="stylesheet" href="<?php autoVer('/css/core.css'); ?>" />
+	<link rel="stylesheet" href="http://cdn.studioncreations.com<?php autoVer('/css/core.css'); ?>" />
 	<link rel="stylesheet" href="<?php autoVer('/css/pages.css'); ?>" />
 	<script src="/js/modernizr-min.js"></script>
 </head>
@@ -237,7 +237,7 @@
 		<div class="form-row" id="end">
 			<div id="thats-all">
 				<h3>That's all folks!</h3>
-				<button type="submit" name="submit" id="submit" class="button big-green-button">Send away.</button>
+				<button type="submit" name="submit" id="submit" class="button big-green-button">Send away...</button>
 			</div>
 		</div>
 	</form>

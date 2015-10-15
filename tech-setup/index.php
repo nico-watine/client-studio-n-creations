@@ -14,13 +14,12 @@
 	
 	<link rel="stylesheet" href="http://cdn.studioncreations.com<?php autoVer('/css/core.css'); ?>" />
 	<link rel="stylesheet" href="<?php autoVer('/css/pages.css'); ?>" />
-	<script src="/js/modernizr-min.js"></script>
 </head>
 <body id="tech-setup">
 
 <header>
 	<div class="row" id="nav-bar">
-		<a href="/" class="title" id="index-link"><span id="large">Studio N Creations</span><span id="mini">SNC</span></a>
+		<a href="http://studioncreations.com" class="title" id="index-link"><span id="large">Studio N Creations</span><span id="mini">SNC</span></a>
 		<div id="button-wrapper">
 		</div>
 	</div>
@@ -247,14 +246,20 @@
 <footer>
 	<div class="outer-container padding">
 		<div class="row">
-			<h6>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="/img/footer/facebook.png" alt="Facebook Link"></a></h6>
-			<h6 id="html5-powered">powered by <img src="/img/footer/html5-shield.png" alt="HTML5 Shield"></h6>
+			<ul class="footer-menu">
+				<li><a href="/">HOME</a></li>
+				<li><a href="/what-we-do/">SERVICES</a></li>
+				<li><a href="/portfolio/">PORTFOLIO</a></li>
+				<li><a href="/about-us">ABOUT</a></li>
+				<li id="contact"><a href="/contact/">CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="row">
+			<h6>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="http://cdn.studioncreations.com/img/footer/facebook.png" alt="Facebook Link"></a></h6>
+			<h6 id="html5-powered">powered by <img src="http://cdn.studioncreations.com/img/footer/html5-shield.png" alt="HTML5 Shield"></h6>
 		</div>
 	</div>
 </footer>
-
-
-<script src="<?php autoVer('/js/nav-min.js'); ?>"></script>
 
 </body>
 </html>

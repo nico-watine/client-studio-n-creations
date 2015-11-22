@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         rdiscount
+highlighter:      pygments
+ 
+# Permalinks
+permalink:        /:categories/:title
+ 
+# Server
+destination:      _site
+host:             localhost
+port:             9001
+url:       		  http://nicos-mbp.local:5757/
+baseurl:          /
+encoding:         UTF-8
+
+# LOCAL-DEV BRANCH
+cdn_url:       
+start_comment: <!--
+end_comment: -->
+
+# CDN-PRODUCTION BRANCH
+# cdn_url:         http://cdn.studioncreations.com/client
+# start_comment: 
+# end_comment: 

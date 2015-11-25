@@ -99,6 +99,12 @@
 				</div>
 				<div class="input-container">
 					<div class="input">
+					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/10.png" alt="Windows 10"><br>
+					<input type="checkbox" name="windows-10" value="Windows 10   "><label>Windows 10</label>
+					</div>
+				</div>
+				<div class="input-container">
+					<div class="input">
 					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
 					<input type="checkbox" name="windows-unsure" value="Windows Unsure"><label>Unsure</label>
 					</div>
@@ -142,8 +148,14 @@
 				</div>
 				<div class="input-container">
 					<div class="input">
+					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/el-capitan.png" alt="el-capitan"><br>
+					<input type="checkbox" name="el-capitan" value="El Capitan   "><label>10.11 <br> El Capitan</label>
+					</div>
+				</div>
+				<div class="input-container">
+					<div class="input">
 					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
-					<input type="checkbox" name="mac-unsure" value="Mac Unsure   "><label>Unsure</label>
+					<input type="checkbox" name="mac-unsure" value="Mac Unsure   "><label> Unsure <br>&nbsp;</label>
 					</div>
 				</div>
 			</div>
@@ -212,6 +224,12 @@
 				</div>
 				<div class="input-container">
 					<div class="input">
+					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/edge.png" alt="Microsoft Edge"><br>
+					<input type="checkbox" name="microsoft-edge" value="Microsoft Edge   "><label>Microsoft Edge</label>
+					</div>
+				</div>
+				<div class="input-container">
+					<div class="input">
 					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
 					<input type="checkbox" name="browser-unsure" value="Unsure   "><label>Unsure</label>
 					</div>
@@ -219,7 +237,7 @@
 			</div>
 		</div>
 		<hr>
-		<div class="form-row" id="end">
+		<div class="form-row side-padding" id="end">
 			<div id="thats-all">
 				<h3>That's all folks!</h3>
 				<button type="submit" name="submit" id="submit" class="button big-green-button">Send away...</button>

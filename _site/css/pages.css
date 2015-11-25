@@ -73,25 +73,37 @@ label span {
   display: table-cell;
   vertical-align: bottom; }
 
-#windows .input-container,
-#macintosh .input-container,
-#browsers .input-container {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 14.70196%;
-  height: 240px;
-  display: table;
-  text-align: center; }
-  #windows .input-container:last-child,
-  #macintosh .input-container:last-child,
-  #browsers .input-container:last-child {
-    margin-right: 0; }
-#windows .input,
-#macintosh .input,
-#browsers .input {
-  display: table-cell;
-  vertical-align: bottom; }
+#windows,
+#macintosh,
+#browsers {
+  padding: 0 1.25rem; }
+  #windows .input-container,
+  #macintosh .input-container,
+  #browsers .input-container {
+    float: left;
+    display: block;
+    margin-right: 2.01406%;
+    width: 12.55938%;
+    height: 240px;
+    display: table;
+    text-align: center; }
+    #windows .input-container:last-child,
+    #macintosh .input-container:last-child,
+    #browsers .input-container:last-child {
+      margin-right: 0; }
+    #windows .input-container:nth-child(7n),
+    #macintosh .input-container:nth-child(7n),
+    #browsers .input-container:nth-child(7n) {
+      margin-right: 0; }
+    #windows .input-container:nth-child(7n+1),
+    #macintosh .input-container:nth-child(7n+1),
+    #browsers .input-container:nth-child(7n+1) {
+      clear: left; }
+  #windows .input,
+  #macintosh .input,
+  #browsers .input {
+    display: table-cell;
+    vertical-align: bottom; }
 
 #linux .row-content {
   float: left;
@@ -115,9 +127,6 @@ label span {
   display: table-cell;
   vertical-align: bottom; }
 
-.form-row#end {
-  padding: 0 1em; }
-
 #thats-all {
   text-align: center;
   background: #fff;
@@ -131,9 +140,6 @@ label span {
     margin-bottom: 1.25rem; }
 
 @media screen and (max-width: 62.5em) {
-  .intro-box {
-    padding: 2.5rem 1.875rem 1.25rem; }
-
   #name .input-container {
     float: left;
     display: block;
@@ -153,6 +159,14 @@ label span {
     height: 240px;
     display: table;
     text-align: center; }
+    #windows .input-container:nth-child(7n),
+    #macintosh .input-container:nth-child(7n),
+    #browsers .input-container:nth-child(7n) {
+      margin-right: 1.75788%; }
+    #windows .input-container:nth-child(7n+1),
+    #macintosh .input-container:nth-child(7n+1),
+    #browsers .input-container:nth-child(7n+1) {
+      clear: none; }
     #windows .input-container:last-child,
     #macintosh .input-container:last-child,
     #browsers .input-container:last-child {
@@ -182,6 +196,37 @@ label span {
 @media screen and (max-width: 38.125em) {
   .intro-box {
     padding: 1.25rem 1.5625rem 0rem; }
+
+  #windows .input-container,
+  #macintosh .input-container,
+  #browsers .input-container {
+    float: left;
+    display: block;
+    margin-right: 4.82916%;
+    width: 47.58542%;
+    height: 240px;
+    display: table;
+    text-align: center; }
+    #windows .input-container:nth-child(3n),
+    #macintosh .input-container:nth-child(3n),
+    #browsers .input-container:nth-child(3n) {
+      margin-right: 1.75788%; }
+    #windows .input-container:nth-child(3n+1),
+    #macintosh .input-container:nth-child(3n+1),
+    #browsers .input-container:nth-child(3n+1) {
+      clear: none; }
+    #windows .input-container:last-child,
+    #macintosh .input-container:last-child,
+    #browsers .input-container:last-child {
+      margin-right: 0; }
+    #windows .input-container:nth-child(2n),
+    #macintosh .input-container:nth-child(2n),
+    #browsers .input-container:nth-child(2n) {
+      margin-right: 0; }
+    #windows .input-container:nth-child(2n+1),
+    #macintosh .input-container:nth-child(2n+1),
+    #browsers .input-container:nth-child(2n+1) {
+      clear: left; }
 
   #computer-os .input,
   #windows .input,

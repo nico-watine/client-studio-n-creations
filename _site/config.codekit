@@ -174,15 +174,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/css\/pages.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/pages.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -271,6 +262,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/tech-setup\/form-icons\/browsers\/edge.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8069,
+		"inputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/browsers\/edge.png",
+		"outputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/browsers\/edge.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/tech-setup\/form-icons\/browsers\/firefox.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113981,
+		"inputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/browsers\/firefox.png",
+		"outputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/browsers\/firefox.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/tech-setup\/form-icons\/browsers\/internet-explorer.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -348,6 +361,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/tech-setup\/form-icons\/os-x\/el-capitan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23072,
+		"inputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/os-x\/el-capitan.png",
+		"outputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/os-x\/el-capitan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/tech-setup\/form-icons\/os-x\/lion.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -410,6 +434,17 @@
 		"initialSize": 5452,
 		"inputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/unsure.png",
 		"outputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/unsure.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/tech-setup\/form-icons\/windows\/10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5166,
+		"inputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/windows\/10.png",
+		"outputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/windows\/10.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1255,6 +1290,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/tech-setup\/form-icons\/browsers\/edge.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8069,
+		"inputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/browsers\/edge.png",
+		"outputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/browsers\/edge.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tech-setup\/form-icons\/browsers\/firefox.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113981,
+		"inputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/browsers\/firefox.png",
+		"outputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/browsers\/firefox.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tech-setup\/form-icons\/browsers\/internet-explorer.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1332,6 +1389,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/tech-setup\/form-icons\/os-x\/el-capitan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23072,
+		"inputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/os-x\/el-capitan.png",
+		"outputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/os-x\/el-capitan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tech-setup\/form-icons\/os-x\/lion.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1394,6 +1462,17 @@
 		"initialSize": 5452,
 		"inputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/unsure.png",
 		"outputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/unsure.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tech-setup\/form-icons\/windows\/10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5166,
+		"inputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/windows\/10.png",
+		"outputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/windows\/10.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1903,6 +1982,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/style\/pages\/tech-setup\/_form.scss",
 		"outputAbbreviatedPath": "\/css\/_form.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/style\/pages\/tech-setup\/_main-2.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/style\/pages\/tech-setup\/_main-2.scss",
+		"outputAbbreviatedPath": "\/css\/_main-2.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

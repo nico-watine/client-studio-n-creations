@@ -85,7 +85,7 @@ label.question {
 
 	.input-container {
 		@include span-columns(2 of 14);
-		@include omega(7n);
+		// @include omega(7n);
 		height: 240px;
 		display: table;
 		text-align: center;
@@ -145,9 +145,9 @@ label.question {
 	#macintosh,
 	#browsers {
 		.input-container {
-			@include omega-reset(7n);
+			// @include omega-reset(7n);
 			@include span-columns(3 of 9);
-			// @include omega(3n);
+			@include omega(3n);
 
 			height: 240px;
 			display: table;
@@ -184,9 +184,13 @@ label.question {
 	#macintosh,
 	#browsers {
 		.input-container {
-			// @include omega-reset(0n);
-			@include span-columns(3 of 6);
+			
+						
+			@include span-columns(2 of 4);
+			@include omega-reset(3n, 4);
 			@include omega(2n);
+
+			// @include span-columns(2 of 4);
 			height: 240px;
 			display: table;
 			text-align: center;

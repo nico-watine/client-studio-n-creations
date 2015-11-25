@@ -170,6 +170,7 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -298,6 +299,8 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -559,8 +562,10 @@ button {
   text-decoration: none;
   color: #fff;
   -webkit-transition: background-color 200ms ease-out 0s;
+  -moz-transition: background-color 200ms ease-out 0s;
   transition: background-color 200ms ease-out 0s;
   -webkit-transition: color 200ms ease-out 0s;
+  -moz-transition: color 200ms ease-out 0s;
   transition: color 200ms ease-out 0s; }
   a.button:hover,
   button:hover {
@@ -576,6 +581,7 @@ a.opaque-button {
   border: 0.125rem solid #f1f1f1;
   box-shadow: 0 0 0.25rem 0.0625rem #222;
   -webkit-transition: background 70ms ease-out 0s;
+  -moz-transition: background 70ms ease-out 0s;
   transition: background 70ms ease-out 0s; }
   a.opaque-button:hover {
     box-shadow: 0 0 0.1875rem 0 #000;
@@ -660,7 +666,6 @@ textarea {
   height: auto;
   width: 100%;
   box-sizing: border-box;
-  -webkit-transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
   transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s; }
 
 label {
@@ -675,7 +680,7 @@ label {
 .form-row {
   float: left;
   display: block;
-  margin-right: 2.84259%;
+  margin-right: 5.26316%;
   width: 100%; }
   .form-row:last-child {
     margin-right: 0; }
@@ -683,8 +688,8 @@ label {
 .form-button {
   float: left;
   display: block;
-  margin-right: 2.84259%;
-  width: 48.57871%; }
+  margin-right: 5.26316%;
+  width: 47.36842%; }
   .form-button:last-child {
     margin-right: 0; }
 
@@ -820,23 +825,16 @@ li.sub-item {
 .overlay-slidedown {
   visibility: hidden;
   -webkit-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-      transform: translateY(-100%);
+  transform: translateY(-100%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
-  -webkit-transition: visibility 0s 0.4s, -webkit-transform 0.4s ease-in-out;
-  transition: visibility 0s 0.4s, -webkit-transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
-  transition: transform 0.4s ease-in-out, visibility 0s 0.4s, -webkit-transform 0.4s ease-in-out; }
+  transition: transform 0.4s ease-in-out, visibility 0s 0.4s; }
 
 .overlay-slidedown.open {
   visibility: visible;
   -webkit-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-      transform: translateY(0%);
+  transform: translateY(0%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out;
-  transition: -webkit-transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; }
+  transition: transform 0.4s ease-in-out; }
 
 @media screen and (max-width: 46.875em) {
   .row#nav-bar {

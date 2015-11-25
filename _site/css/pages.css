@@ -172,14 +172,6 @@ label.question {
     #macintosh .input-container:last-child,
     #browsers .input-container:last-child {
       margin-right: 0; }
-    #windows .input-container:nth-child(3n),
-    #macintosh .input-container:nth-child(3n),
-    #browsers .input-container:nth-child(3n) {
-      margin-right: 0; }
-    #windows .input-container:nth-child(3n+1),
-    #macintosh .input-container:nth-child(3n+1),
-    #browsers .input-container:nth-child(3n+1) {
-      clear: left; }
   #windows .input,
   #macintosh .input,
   #browsers .input {
@@ -198,6 +190,16 @@ label.question {
   .intro-box {
     padding: 1.25rem 1.5625rem 0rem; }
 
+  #computer-os {
+    padding: 0 1.25em; }
+    #computer-os .input-container {
+      float: left;
+      display: block;
+      margin-right: 10.1484%;
+      width: 26.56773%; }
+      #computer-os .input-container:last-child {
+        margin-right: 0; }
+
   #windows .input-container,
   #macintosh .input-container,
   #browsers .input-container {
@@ -208,14 +210,6 @@ label.question {
     height: 240px;
     display: table;
     text-align: center; }
-    #windows .input-container:nth-child(3n),
-    #macintosh .input-container:nth-child(3n),
-    #browsers .input-container:nth-child(3n) {
-      margin-right: 1.75788%; }
-    #windows .input-container:nth-child(3n+1),
-    #macintosh .input-container:nth-child(3n+1),
-    #browsers .input-container:nth-child(3n+1) {
-      clear: none; }
     #windows .input-container:last-child,
     #macintosh .input-container:last-child,
     #browsers .input-container:last-child {

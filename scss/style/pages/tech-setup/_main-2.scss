@@ -1,5 +1,6 @@
 @import "../../settings/_settings.scss";
 
+
 #tech-setup {
 
 	main {
@@ -46,12 +47,6 @@ form#tech-form {
 label.question {
 	font-size: rem(21);
 }
-
-// label {
-// 	span {
-// 		display: inline-block;
-// 	}
-// }
 
 .form-row {
 	margin-bottom: em(30);
@@ -152,7 +147,7 @@ label.question {
 		.input-container {
 			@include omega-reset(7n);
 			@include span-columns(3 of 9);
-			@include omega(3n);
+			// @include omega(3n);
 
 			height: 240px;
 			display: table;
@@ -176,16 +171,22 @@ label.question {
 @include media($android) {
 	.intro-box {
 		padding: rem(20) rem(25) rem(0);
-	}	
+	}
+
+	#computer-os {
+		padding: 0 em(20);
+		.input-container {
+			@include span-columns(1 of 3);
+		}
+	}
 
 	#windows,
 	#macintosh,
 	#browsers {
 		.input-container {
-			@include omega-reset(3n);
+			// @include omega-reset(0n);
 			@include span-columns(3 of 6);
 			@include omega(2n);
-
 			height: 240px;
 			display: table;
 			text-align: center;

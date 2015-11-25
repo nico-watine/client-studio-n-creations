@@ -33,7 +33,7 @@
 			<label class="question">Your Name</label>
 			<div class="row">
 				<div class="input-container">
-					<input  type="text" name="name" placeholder="your name" />
+					<input  type="text" name="name" placeholder="Your Name" />
 				</div>
 			</div>
 		</div>
@@ -44,35 +44,20 @@
 			<div class="row">
 				<div class="input-container">
 					<div class="input">
-			            <label>
-				            <img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/apple.png" alt="Apple Logo">
-				            <br>
-				            <input type="checkbox" name="computer-os-mac" value="Macintosh OS X   ">
-				            <br>
-				            Macintosh <span>OS X</span>
-			            </label>
+			            <label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/apple.png" alt="Apple Logo"><br>
+			            <input type="checkbox" name="computer-os-mac" value="Macintosh OS X   "><br>Macintosh <span>OS X</span></label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
-	            		<label>
-				            <img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/microsoft.png" alt="Microsoft Logo">
-				            <br>
-				            <input type="checkbox" name="computer-os-windows" value="Microsoft Windows   ">
-				            <br>
-				            Microsoft Windows
-			            </label>
+	            		<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/microsoft.png" alt="Microsoft Logo"><br>
+			            <input type="checkbox" name="computer-os-windows" value="Microsoft Windows   "><br>Microsoft Windows</label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
-						<label>
-				            <img src="{{ site.client_cdn }}/img/tech-setup/form-icons/linux/linux.png" alt="Linux Penguin">
-				            <br>
-				            <input type="checkbox" name="computer-os-linux" value="Linux Distro   ">
-				            <br>
-				            Linux Distro
-			            </label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/linux/linux.png" alt="Linux Penguin"><br>
+			            <input type="checkbox" name="computer-os-linux" value="Linux Distro   "><br>Linux Distro</label>
 		            </div>
 	            </div>
            </div>
@@ -183,20 +168,20 @@
 				<div class="row-content">
 					<div class="input-container">
 						<div class="input">
-							<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/linux/ubuntu.png" alt="Ubuntu"><br>
-							<input type="checkbox" name="ubuntu" value="Ubuntu   "><label>Ubuntu</label>
+							<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/linux/ubuntu.png" alt="Ubuntu"><br>
+							<input type="checkbox" name="ubuntu" value="Ubuntu   "><br>Ubuntu</label>
 						</div>
 					</div>
 					<div class="input-container">
 						<div class="input">
-							<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/linux/fedora.png" alt="Fedora"><br>
-							<input type="checkbox" name="fedora" value="Fedora   "><label>Fedora</label>
+							<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/linux/fedora.png" alt="Fedora"><br>
+							<input type="checkbox" name="fedora" value="Fedora   "><br>Fedora</label>
 						</div>
 					</div>
 					<div class="input-container">
 						<div class="input">
-						<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
-						<input type="checkbox" name="linux-other" value="Linux Other   "><label>Other</label>
+							<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
+							<input type="checkbox" name="linux-other" value="Linux Other   "><br>Other</label>
 						</div>
 					</div>
 				</div>
@@ -209,44 +194,44 @@
 			<div class="row">
 				<div class="input-container">
 					<div class="input">
-						<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/chrome.png" alt="Chrome"><br>
-						<input type="checkbox" name="chrome" value="Chrome   "><label>Chrome</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/chrome.png" alt="Chrome"><br>
+						<input type="checkbox" name="chrome" value="Chrome   "><br>Chrome</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/safari.png" alt="Safari"><br>
-						<input type="checkbox" name="safari" value="Safari   "><label>Safari</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/safari.png" alt="Safari"><br>
+						<input type="checkbox" name="safari" value="Safari   "><br>Safari</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/internet-explorer.png" alt="Internet Explorer"><br>
-					<input type="checkbox" name="internet-explorer" value="Internet Explorer   "><label>Internet Explorer</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/internet-explorer.png" alt="Internet Explorer"><br>
+						<input type="checkbox" name="internet-explorer" value="Internet Explorer   "><br>Internet Explorer</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/firefox.png" alt="Firefox"><br>
-					<input type="checkbox" name="firefox" value="Firefox   "><label>Firefox</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/firefox.png" alt="Firefox"><br>
+						<input type="checkbox" name="firefox" value="Firefox   "><br>Firefox</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/opera.png" alt="Opera"><br>
-					<input type="checkbox" name="opera" value="Opera   "><label>Opera</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/opera.png" alt="Opera"><br>
+						<input type="checkbox" name="opera" value="Opera   "><br>Opera</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/edge.png" alt="Microsoft Edge"><br>
-					<input type="checkbox" name="microsoft-edge" value="Microsoft Edge   "><label>Microsoft Edge</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/browsers/edge.png" alt="Microsoft Edge"><br>
+						<input type="checkbox" name="microsoft-edge" value="Microsoft Edge   "><br>Microsoft Edge</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
-					<input type="checkbox" name="browser-unsure" value="Unsure   "><label>Unsure</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
+						<input type="checkbox" name="browser-unsure" value="Unsure   "><br>Unsure</label>
 					</div>
 				</div>
 			</div>

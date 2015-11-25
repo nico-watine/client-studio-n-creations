@@ -25,23 +25,24 @@ html {
 h3.form-title {
   margin-bottom: 1.875em; }
 
-form {
+form#tech-form {
   max-width: 75em;
   margin-left: auto;
   margin-right: auto; }
-  form::after {
+  form#tech-form::after {
     clear: both;
     content: "";
     display: table; }
-  form img {
+  form#tech-form label {
+    display: inline-block; }
+    form#tech-form label span {
+      display: inline-block; }
+  form#tech-form img {
     margin-bottom: 1em;
     max-width: 150px; }
 
 label.question {
   font-size: 1.3125rem; }
-
-label span {
-  display: inline-block; }
 
 .form-row {
   margin-bottom: 1.875em; }

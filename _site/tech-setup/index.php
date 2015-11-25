@@ -44,7 +44,7 @@
 			<hr>
 		</div>
 	</div>
-	<form name="myform" id="contactForm" action="submit-form.php" enctype="multipart/form-data" method="post" /> 
+	<form name="myform" id="tech-form" action="submit-form.php" enctype="multipart/form-data" method="post" /> 
 		<div class="form-row" id="name">
 			<label class="question">Your Name</label>
 			<div class="row">
@@ -60,20 +60,35 @@
 			<div class="row">
 				<div class="input-container">
 					<div class="input">
-						<img src="/img/tech-setup/form-icons/os-x/apple.png" alt="Apple Logo"><br>
-			            <input type="checkbox" name="computer-os-mac" value="Macintosh OS X   "><label>Macintosh <span>OS X</span></label>
+			            <label>
+				            <img src="/img/tech-setup/form-icons/os-x/apple.png" alt="Apple Logo">
+				            <br>
+				            <input type="checkbox" name="computer-os-mac" value="Macintosh OS X   ">
+				            <br>
+				            Macintosh <span>OS X</span>
+			            </label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
-			            <img src="/img/tech-setup/form-icons/windows/microsoft.png" alt="Microsoft Logo"><br>
-			            <input type="checkbox" name="computer-os-windows" value="Microsoft Windows   "><label>Microsoft Windows</label>
+	            		<label>
+				            <img src="/img/tech-setup/form-icons/windows/microsoft.png" alt="Microsoft Logo">
+				            <br>
+				            <input type="checkbox" name="computer-os-windows" value="Microsoft Windows   ">
+				            <br>
+				            Microsoft Windows
+			            </label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
-			            <img src="/img/tech-setup/form-icons/linux/linux.png" alt="Linux Penguin"><br>
-			            <input type="checkbox" name="computer-os-linux" value="Linux Distro   "><label>Linux Distro</label>
+						<label>
+				            <img src="/img/tech-setup/form-icons/linux/linux.png" alt="Linux Penguin">
+				            <br>
+				            <input type="checkbox" name="computer-os-linux" value="Linux Distro   ">
+				            <br>
+				            Linux Distro
+			            </label>
 		            </div>
 	            </div>
            </div>

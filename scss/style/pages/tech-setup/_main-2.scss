@@ -26,8 +26,17 @@ h3.form-title {
 	margin-bottom: em(30);
 }
 
-form {
+form#tech-form {
 	@include outer-container;
+
+	label {
+		display: inline-block;
+
+		span {
+			display: inline-block;
+		}
+	}
+
 	img {
 		margin-bottom: em(16);
 		max-width: 150px;
@@ -38,11 +47,11 @@ label.question {
 	font-size: rem(21);
 }
 
-label {
-	span {
-		display: inline-block;
-	}
-}
+// label {
+// 	span {
+// 		display: inline-block;
+// 	}
+// }
 
 .form-row {
 	margin-bottom: em(30);

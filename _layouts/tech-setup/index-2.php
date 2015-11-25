@@ -84,44 +84,44 @@
 			<div class="row">
 				<div class="input-container">
 					<div class="input">
-						<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/xp.png" alt="Windows XP"><br>
-						<input type="checkbox" name="windows-xp" value="Windows XP   "><label>Windows XP</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/xp.png" alt="Windows XP"><br>
+						<input type="checkbox" name="windows-xp" value="Windows XP   "><br>Windows XP</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/vista.png" alt="Windows Vista"><br>
-						<input type="checkbox" name="windows-vista" value="Windows Vista   "><label>Windows Vista</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/vista.png" alt="Windows Vista"><br>
+						<input type="checkbox" name="windows-vista" value="Windows Vista   "><br>Windows Vista</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/7.png" alt="Windows 7"><br>
-					<input type="checkbox" name="windows-7" value="Windows 7   "><label>Windows 7</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/7.png" alt="Windows 7"><br>
+						<input type="checkbox" name="windows-7" value="Windows 7   "><br>Windows 7</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/8.png" alt="Windows 8"><br>
-					<input type="checkbox" name="windows-8" value="Windows 8   "><label>Windows 8</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/8.png" alt="Windows 8"><br>
+						<input type="checkbox" name="windows-8" value="Windows 8   "><br>Windows 8</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/8-1.png" alt="Windows 8-1"><br>
-					<input type="checkbox" name="windows-8-1" value="Windows 8-1   "><label>Windows 8.1</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/8-1.png" alt="Windows 8-1"><br>
+						<input type="checkbox" name="windows-8-1" value="Windows 8-1   "><br>Windows 8.1</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/10.png" alt="Windows 10"><br>
-					<input type="checkbox" name="windows-10" value="Windows 10   "><label>Windows 10</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/windows/10.png" alt="Windows 10"><br>
+						<input type="checkbox" name="windows-10" value="Windows 10   "><br>Windows 10</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
-					<input type="checkbox" name="windows-unsure" value="Windows Unsure"><label>Unsure</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
+						<input type="checkbox" name="windows-unsure" value="Windows Unsure"><br>Unsure</label>
 					</div>
 				</div>
 			</div>
@@ -133,44 +133,44 @@
 			<div class="row">
 				<div class="input-container">
 					<div class="input">
-						<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/snow-leopard.png" alt="Snow Leopard"><br>
-						<input type="checkbox" name="snow-leopard" value="Snow Leopard   "><label>10.6 <br> Snow Leopard</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/snow-leopard.png" alt="Snow Leopard"><br>
+						<input type="checkbox" name="snow-leopard" value="Snow Leopard   "><br>10.6 <br> Snow Leopard</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/lion.png" alt="Lion"><br>
-						<input type="checkbox" name="lion" value="Lion   "><label>10.7 <br> Lion</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/lion.png" alt="Lion"><br>
+						<input type="checkbox" name="lion" value="Lion   "><br>10.7 <br> Lion</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/mountain-lion.png" alt="Mountain Lion"><br>
-					<input type="checkbox" name="mountain-lion" value="Mountain Lion   "><label>10.8 <br> Mountain Lion</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/mountain-lion.png" alt="Mountain Lion"><br>
+						<input type="checkbox" name="mountain-lion" value="Mountain Lion   "><br>10.8 <br> Mountain Lion</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/mavericks.png" alt="Mavericks"><br>
-					<input type="checkbox" name="mavericks" value="Mavericks   "><label>10.9 <br> Mavericks</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/mavericks.png" alt="Mavericks"><br>
+						<input type="checkbox" name="mavericks" value="Mavericks   "><br>10.9 <br> Mavericks</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/yosemite.png" alt="Yosemite"><br>
-					<input type="checkbox" name="yosemite" value="Yosemite   "><label>10.10 <br> Yosemite</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/yosemite.png" alt="Yosemite"><br>
+						<input type="checkbox" name="yosemite" value="Yosemite   "><br>10.10 <br> Yosemite</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/el-capitan.png" alt="el-capitan"><br>
-					<input type="checkbox" name="el-capitan" value="El Capitan   "><label>10.11 <br> El Capitan</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/os-x/el-capitan.png" alt="el-capitan"><br>
+						<input type="checkbox" name="el-capitan" value="El Capitan   "><br>10.11 <br> El Capitan</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-					<img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
-					<input type="checkbox" name="mac-unsure" value="Mac Unsure   "><label> Unsure <br>&nbsp;</label>
+						<label><img src="{{ site.client_cdn }}/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
+						<input type="checkbox" name="mac-unsure" value="Mac Unsure   "><br> Unsure <br>&nbsp;</label>
 					</div>
 				</div>
 			</div>

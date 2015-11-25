@@ -8,15 +8,14 @@
 	
 	.intro-box {
 		background: #fff;
-		// box-shadow: 0 0 em(3) 0 #333;
 		box-shadow: $z-2;
 		margin-bottom: em(60);
 		border-radius: em(5);
-		padding: rem(40) rem(70) rem(20);
+		padding: rem(40) rem(30) rem(20);
 		@include span-columns(14 of 16);
 		@include shift(1);
 
-		h3 {
+		p {
 			margin-bottom: rem(30);
 		}
 	}	

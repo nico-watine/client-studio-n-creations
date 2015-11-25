@@ -1,3 +1,3 @@
 ---
-layout: tech-setup/index-1
+layout: tech-setup/index-2
 ---

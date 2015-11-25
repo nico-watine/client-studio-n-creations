@@ -14,11 +14,13 @@ baseurl:          /
 encoding:         UTF-8
 
 # LOCAL-DEV BRANCH
-cdn_url:       
+client_cdn:       	
+site_cdn:
 start_comment: <!--
 end_comment: -->
 
 # CDN-PRODUCTION BRANCH
-# cdn_url:         http://cdn.studioncreations.com/client
+# client_cdn: 		http://cdn.studioncreations.com/client
+# site_cdn:         http://cdn.studioncreations.com
 # start_comment: 
 # end_comment: 

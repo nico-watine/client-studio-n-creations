@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/plain" rel="author" href="/humans.txt">
 	
-	<link rel="stylesheet" href="http://cdn.studioncreations.com<?php autoVer('/css/core.css'); ?>" />
+	<link rel="stylesheet" href="<?php autoVer('/css/core.css'); ?>" />
 	<link rel="stylesheet" href="<?php autoVer('/css/pages.css'); ?>" />
 </head>
 
@@ -35,8 +35,8 @@
 		</div>
 		<div class="row">
 			<section class="intro-box">
-				<h3>These are a few quick questions I ask everybody. Knowing this helps me gauge the project development process.</h3>
-				<h3 class="sub-header">Thank you for taking the time to fill this out. <br>You can select more than one for each question.</h3>
+				<p class="large">These are a few quick questions I ask everybody. Knowing this helps me gauge the project development process.</p>
+				<p class="large">Thank you for taking the time to fill this out. <br>You can select more than one for each question.</p>
 			</section>
 		</div>
 		<div class="row form-title">
@@ -46,7 +46,7 @@
 	</div>
 	<form name="myform" id="contactForm" action="submit-form.php" enctype="multipart/form-data" method="post" /> 
 		<div class="form-row" id="name">
-			<label class="question">Your name</label>
+			<label class="question">Your Name</label>
 			<div class="row">
 				<div class="input-container">
 					<input  type="text" name="name" placeholder="your name" />
@@ -252,33 +252,16 @@
 				<li><a href="http://studioncreations.com/what-we-do/">SERVICES</a></li>
 				<li><a href="http://studioncreations.com/portfolio/">PORTFOLIO</a></li>
 				<li><a href="http://studioncreations.com/about-us">ABOUT</a></li>
-				<li id="contact"><a href="/contact/">CONTACT</a></li>
+				<li id="contact"><a href="http://studioncreations.com/contact/">CONTACT</a></li>
 			</ul>
 		</div>
 		<div class="row">
-			<h6>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="http://cdn.studioncreations.com/img/footer/facebook.png" alt="Facebook Link"></a></h6>
-			<h6 id="html5-powered">powered by <img src="http://cdn.studioncreations.com/img/footer/html5-shield.png" alt="HTML5 Shield"></h6>
+			<h6>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="/img/footer/facebook.png" alt="Facebook Link"></a></h6>
+			<h6 id="html5-powered">powered by <img src="/img/footer/html5-shield.png" alt="HTML5 Shield"></h6>
 		</div>
 	</div>
 </footer>
 
-<footer>
-	<div class="outer-container padding">
-		<div class="row">
-			<ul class="footer-menu">
-				<li><a href="http://studioncreations.com">HOME</a></li>
-				<li><a href="http://studioncreations.com/what-we-do/">SERVICES</a></li>
-				<li><a href="http://studioncreations.com/portfolio/">PORTFOLIO</a></li>
-				<li><a href="http://studioncreations.com/about-us">ABOUT</a></li>
-				<li id="contact"><a href="/contact/">CONTACT</a></li>
-			</ul>
-		</div>
-		<div class="row">
-			<h6>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="http://cdn.studioncreations.com/img/footer/facebook.png" alt="Facebook Link"></a></h6>
-			<h6 id="html5-powered">powered by <img src="http://cdn.studioncreations.com/img/footer/html5-shield.png" alt="HTML5 Shield"></h6>
-		</div>
-	</div>
-</footer>
 
 </body>
 </html>

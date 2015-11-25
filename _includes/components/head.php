@@ -12,6 +12,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/plain" rel="author" href="/humans.txt">
 	
-	<link rel="stylesheet" href="http://cdn.studioncreations.com<?php autoVer('/css/core.css'); ?>" />
-	<link rel="stylesheet" href="{{ site.cdn_url }}<?php autoVer('/css/pages.css'); ?>" />
+	<link rel="stylesheet" href="{{ site.snc_cdn }}<?php autoVer('/css/core.css'); ?>" />
+	<link rel="stylesheet" href="{{ site.client_cdn }}<?php autoVer('/css/pages.css'); ?>" />
 </head>

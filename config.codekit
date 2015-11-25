@@ -74,6 +74,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_layouts\/tech-setup\/index-2.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/tech-setup\/index-2.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/403.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -146,6 +155,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/_site\/css\/core-old.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/core-old.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/css\/core.css": {
 		"fileType": 16,
@@ -249,17 +267,6 @@
 		"initialSize": 36578,
 		"inputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/browsers\/chrome.png",
 		"outputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/browsers\/chrome.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/tech-setup\/form-icons\/browsers\/firefox.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 40560,
-		"inputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/browsers\/firefox.png",
-		"outputAbbreviatedPath": "\/_site\/img\/tech-setup\/form-icons\/browsers\/firefox.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -599,15 +606,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/scss\/core.scss": {
+	"\/_site\/scss\/core-old.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/scss\/core.scss",
-		"outputAbbreviatedPath": "\/css\/core.css",
+		"inputAbbreviatedPath": "\/_site\/scss\/core-old.scss",
+		"outputAbbreviatedPath": "\/css\/core-old.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1133,6 +1140,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/core-old.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/core-old.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/core.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1239,22 +1255,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/tech-setup\/form-icons\/browsers\/firefox.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 40560,
-		"inputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/browsers\/firefox.png",
-		"outputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/browsers\/firefox.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/tech-setup\/form-icons\/browsers\/internet-explorer.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30515,
+		"initialSize": 75022,
 		"inputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/browsers\/internet-explorer.png",
 		"outputAbbreviatedPath": "\/img\/tech-setup\/form-icons\/browsers\/internet-explorer.png",
 		"outputPathIsOutsideProject": 0,
@@ -1585,15 +1590,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/scss\/core.scss": {
+	"\/scss\/core-old.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/core.scss",
-		"outputAbbreviatedPath": "\/css\/core.css",
+		"inputAbbreviatedPath": "\/scss\/core-old.scss",
+		"outputAbbreviatedPath": "\/css\/core-old.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

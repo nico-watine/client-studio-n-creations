@@ -7,13 +7,13 @@
 <head>
 	<meta charset="utf-8">
 	<!--<link rel="preconnect" href="http://cdn.studioncreations.com">-->
-	<title>Tech Setup Survey</title>
-	<meta name="description" content="">
+	<title>Tech Setup Survey | Studio N Creations</title>
+	<meta name="description" content="3 quick questions and then it's time to get started." />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/plain" rel="author" href="/humans.txt">
 	
-	<link rel="stylesheet" href="<?php autoVer('/css/core-old.css'); ?>" />
+	<link rel="stylesheet" href="<?php autoVer('/css/core.css'); ?>" />
 	<link rel="stylesheet" href="<?php autoVer('/css/pages.css'); ?>" />
 </head>
 
@@ -126,8 +126,8 @@
 					</div>
 				</div>
 			</div>
+			<hr>
 		</div>
-		<hr>
 		<div class="form-row" id="macintosh">
 			<label class="question">If Macintosh OS X ::</label>
 			<br>
@@ -175,8 +175,8 @@
 					</div>
 				</div>
 			</div>
+			<hr>
 		</div>
-		<hr>
 		<div class="form-row" id="linux">
 			<label class="question">If Linux Distro ::</label>
 			<br>
@@ -202,8 +202,8 @@
 					</div>
 				</div>
 			</div>
+			<hr>
 		</div>
-		<hr>
 		<div class="form-row" id="browsers">
 			<label class="question">What web browser(s) do you use?</label>
 			<br>
@@ -251,12 +251,12 @@
 					</div>
 				</div>
 			</div>
+			<hr>
 		</div>
-		<hr>
 		<div class="form-row side-padding" id="end">
 			<div id="thats-all">
 				<h3>That's all folks!</h3>
-				<button type="submit" name="submit" id="submit" class="button big-green-button">Send away...</button>
+				<button type="submit" name="submit" id="submit" class="button big-green-button floating">Send away...</button>
 			</div>
 		</div>
 	</form>

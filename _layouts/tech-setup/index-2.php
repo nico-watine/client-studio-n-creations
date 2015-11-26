@@ -110,8 +110,8 @@
 					</div>
 				</div>
 			</div>
+			<hr>
 		</div>
-		<hr>
 		<div class="form-row" id="macintosh">
 			<label class="question">If Macintosh OS X ::</label>
 			<br>
@@ -159,8 +159,8 @@
 					</div>
 				</div>
 			</div>
+			<hr>
 		</div>
-		<hr>
 		<div class="form-row" id="linux">
 			<label class="question">If Linux Distro ::</label>
 			<br>
@@ -186,8 +186,8 @@
 					</div>
 				</div>
 			</div>
+			<hr>
 		</div>
-		<hr>
 		<div class="form-row" id="browsers">
 			<label class="question">What web browser(s) do you use?</label>
 			<br>
@@ -235,12 +235,12 @@
 					</div>
 				</div>
 			</div>
+			<hr>
 		</div>
-		<hr>
 		<div class="form-row side-padding" id="end">
 			<div id="thats-all">
 				<h3>That's all folks!</h3>
-				<button type="submit" name="submit" id="submit" class="button big-green-button">Send away...</button>
+				<button type="submit" name="submit" id="submit" class="button big-green-button floating">Send away...</button>
 			</div>
 		</div>
 	</form>

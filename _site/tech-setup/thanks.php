@@ -1,72 +1,59 @@
+
+<?php 
+	include($_SERVER['DOCUMENT_ROOT'].'/php/autoVer.php');
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<title>Tech Setup Survey</title>
-	<meta name="description" content="">
-	<link type="text/plain" rel="author" href="../humans.txt">
+	<!--<link rel="preconnect" href="http://cdn.studioncreations.com">-->
+	<title>Thanks! | Studio N Creations</title>
+	<meta name="description" content="Thanks for filling out the form. Let's get to work." />
 
-	<link rel="apple-touch-icon" href="../apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="../touch-icon-192x192.png">
-	<link rel="shortcut icon" href="../favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/plain" rel="author" href="/humans.txt">
 	
-	<link rel="stylesheet" href="../css/style.css">
-	
-	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="../css/ie.css">
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<![endif]-->
+	<link rel="stylesheet" href="<?php autoVer('/css/core.css'); ?>" />
+	<link rel="stylesheet" href="<?php autoVer('/css/pages.css'); ?>" />
 </head>
+
 <body>
 
-<header class="top-bar">
-	<div class="outer-container">
-		<div class="row">
-			<div class="logo-wrapper">
-				<a class="title" href="/">snc</a>
-			</div> 
-			<nav class="nav-collapse">
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li class="active"><a href="#">Services</a></li>
-					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/about-us.html">About Us</a></li>
-					<li><a href="/contact.html">Contact</a></li>
-					<li><a href="http://blog.studioncreations.com">Blog</a></li>
-				</ul>
-			</nav>
+<header>
+	<div class="row" id="nav-bar">
+		<a href="http://studioncreations.com" class="title" id="index-link"><span id="large">Studio N Creations</span><span id="mini">SNC</span></a>
+		<div id="button-wrapper">
 		</div>
 	</div>
 </header>
 
+
 <div class="height-wrapper">
 <main class="outer-container text-center">
-	<h1 class="title">thanks!</h1>
+	<h1 class="header">Thanks!</h1>
+	<h2>Let's get to work.</h2>
 </main>
 
-
 <footer>
-	<div class="outer-container">
+	<div class="outer-container padding">
 		<div class="row">
 			<ul class="footer-menu">
-				<li><a href="/">HOME</a></li>
-				<li><a href="/what-we-do.html">SERVICES</a></li>
-				<li><a href="/portfolio">PORTFOLIO</a></li>
-				<li><a href="/about-us.html">ABOUT</a></li>
-				<li id="contact"><a href="/contact.html">CONTACT</a></li>
+				<li><a href="http://studioncreations.com">HOME</a></li>
+				<li><a href="http://studioncreations.com/what-we-do/">SERVICES</a></li>
+				<li><a href="http://studioncreations.com/portfolio/">PORTFOLIO</a></li>
+				<li><a href="http://studioncreations.com/about-us">ABOUT</a></li>
+				<li id="contact"><a href="http://studioncreations.com/contact/">CONTACT</a></li>
 			</ul>
 		</div>
 		<div class="row">
-			<p>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="../img/footer/facebook.png" alt="Facebook Link"></a></p>
-			<p>POWERED BY <span><img src="../img/footer/html5-shield.png" alt="HTML5 Shield"></span></p>
+			<h6>&copy; STUDIO N CREATIONS | 2015 <a href="https://www.facebook.com/studio.n.creations" target="_blank"><img id="facebook" src="/img/footer/facebook.png" alt="Facebook Link"></a></h6>
+			<h6 id="html5-powered">powered by <img src="/img/footer/html5-shield.png" alt="HTML5 Shield"></h6>
 		</div>
 	</div>
 </footer>
+
 </div>
 
-<script src="../js/scripts.min.js"></script>
+
 </body>
 </html>

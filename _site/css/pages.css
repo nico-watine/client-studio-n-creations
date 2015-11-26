@@ -238,6 +238,19 @@ label.question {
 
   #linux .input-container {
     margin-top: 0; } }
+@media only screen and (max-width: 26.25em) {
+  #computer-os .input-container {
+    float: left;
+    display: block;
+    margin-right: 16.03631%;
+    width: 41.98184%;
+    height: 200px; }
+    #computer-os .input-container:last-child {
+      margin-right: 0; }
+    #computer-os .input-container:nth-child(2n) {
+      margin-right: 0; }
+    #computer-os .input-container:nth-child(2n+1) {
+      clear: left; } }
 @media screen and (max-width: 23.75em) {
   #name .input-container {
     float: left;

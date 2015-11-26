@@ -50,29 +50,6 @@ $default-feature: max-width; // Default @media feature for the breakpoint() mixi
 
 $default-layout-direction: LTR !default;
 
-// ALL CUSTOM ADDITIONS BELOW THIS LINE
-// ------------------------------------------------------------
-
-// ------------------------------------------------------------
-// Enable/initiate omega-reset mixin
-// Set Bourbon's flex-grid variables to match what Neat is doing
-// http://bourbon.io/docs/#flex-grid
-// ------------------------------------------------------------
-
-// $fg-column: $column;
-// $fg-gutter: $gutter;
-
-// ------------------------------------------------------------
-// Override Neat's grid settings
-// ------------------------------------------------------------
-
-// $column: golden-ratio(1em, 3) !default; // Column width
-// $gutter: golden-ratio(1em, 3) !default; // Gutter between each two columns
-
-// ------------------------------------------------------------
-// Set Bourbon's flex-grid variables to match what Neat is doing
-// http://bourbon.io/docs/#flex-grid
-// ------------------------------------------------------------
 
 $fg-column: $column;
 $fg-gutter: $gutter;
@@ -82,21 +59,11 @@ $fg-gutter: $gutter;
 // ------------------------------------------------------------
 
 @mixin omega-reset($nth) {
-  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}) { margin-right: flex-gutter($grid-columns, $gutter); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
 
-// ------------------------------------------------------------
-// omega-reset example
-// ------------------------------------------------------------
-// .div {
-// 	@include span-columns(2 of 12);
-// 	@include omega(6n); // end row at 6th div
-
-// 	@include media($default-break) {
-// 		@include omega-reset(6n); // set this equal to original @include omega(Xn) value
-// 		@include span-columns(4 of 16); // new div width
-// 		@include omega(4n); // set new omega at 4th div
-// 	}
+// @mixin omega-reset($nth) {
+//   &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+//   &:nth-child(#{$nth}+1) { clear: none }
 // }
-// ------------------------------------------------------------

@@ -1,5 +1,9 @@
 @import "../../settings/_settings.scss";
 
+// @mixin omega-reset($nth) {
+//   &:nth-child(#{$nth}) { margin-right: flex-gutter($grid-columns, $gutter); }
+//   &:nth-child(#{$nth}+1) { clear: none }
+// }
 
 #tech-setup {
 
@@ -58,9 +62,9 @@ label.question {
 
 #name {
 	.input-container {
-		@include span-columns(8 of 16);
+		@include span-columns(10 of 16);
 		height: 60px;
-		@include shift(4);
+		@include shift(3);
 	}
 }
 
@@ -68,12 +72,10 @@ label.question {
 	.input-container {
 		@include span-columns(4 of 12);
 		height: 240px;
-		display: table;
 		text-align: center;
 	}
 
 	.input {
-		display: table-cell;
 		vertical-align: bottom;
 	}
 }
@@ -85,14 +87,12 @@ label.question {
 
 	.input-container {
 		@include span-columns(2 of 14);
-		// @include omega(7n);
+		@include omega(7n);
 		height: 240px;
-		display: table;
 		text-align: center;
 	}
 
 	.input {
-		display: table-cell;
 		vertical-align: bottom;
 	}
 }
@@ -107,12 +107,10 @@ label.question {
 	.input-container {
 		@include span-columns(3 of 9);
 		height: 240px;
-		display: table;
 		text-align: center;
 	}
 
 	.input {
-		display: table-cell;
 		vertical-align: bottom;
 	}
 }
@@ -133,7 +131,6 @@ label.question {
 }
 
 @include media($large) {
-
 	#name {
 		.input-container {
 			@include span-columns(12 of 16);
@@ -145,17 +142,15 @@ label.question {
 	#macintosh,
 	#browsers {
 		.input-container {
-			// @include omega-reset(7n);
+			@include omega-reset(7n);
 			@include span-columns(3 of 9);
 			@include omega(3n);
 
 			height: 240px;
-			display: table;
 			text-align: center;
 		}
 
 		.input {
-			display: table-cell;
 			vertical-align: bottom;
 		}
 	}
@@ -184,15 +179,10 @@ label.question {
 	#macintosh,
 	#browsers {
 		.input-container {
-			
-						
-			@include span-columns(2 of 4);
-			@include omega-reset(3n, 4);
+			@include omega-reset(3n);
+			@include span-columns(4 of 8);
 			@include omega(2n);
-
-			// @include span-columns(2 of 4);
 			height: 240px;
-			display: table;
 			text-align: center;
 		}
 	}
@@ -202,7 +192,6 @@ label.question {
 	#macintosh,
 	#browsers {
 		.input {
-			display: table-cell;
 			vertical-align: top;
 		}
 	}

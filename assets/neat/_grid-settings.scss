@@ -12,6 +12,8 @@ $large: new-breakpoint(max-width em(1000) 12); // RED
 
 $large-index: new-breakpoint(max-width em(1000) 12); 
 
+$tech-setup-1000: new-breakpoint(max-width em(1000) 9); 
+
 $medium-index: new-breakpoint(max-width em(800) 10);
 
 $medium: new-breakpoint(max-width em(750) 10);  // BLUE
@@ -19,6 +21,8 @@ $medium: new-breakpoint(max-width em(750) 10);  // BLUE
 $small-plus: new-breakpoint(max-width em(640) 8); 
 
 $android: new-breakpoint(max-width em(610) 8); // YELLOW
+
+$tech-setup-610: new-breakpoint(max-width em(610) 8); // YELLOW
 
 $small-index: new-breakpoint(max-width em(600) 8); 
 

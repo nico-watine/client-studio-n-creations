@@ -51,12 +51,11 @@ $default-feature: max-width; // Default @media feature for the breakpoint() mixi
 $default-layout-direction: LTR !default;
 
 
-// ------------------------------------------------------------
-// Omega Reset
-// ------------------------------------------------------------
-
-$fg-column: $column;
-$fg-gutter: $gutter;
+// -------------------------------------------------------------------
+// Omega Reset for Bourbon Neat
+//
+// http://joshfry.me/notes/omega-reset-for-bourbon-neat
+// -------------------------------------------------------------------
 
 @mixin omega-reset($nth) {
   &:nth-child(#{$nth}) { margin-right: flex-gutter($grid-columns, $gutter); }

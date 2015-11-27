@@ -60,19 +60,19 @@
 				<div class="input-container">
 					<div class="input">
 			            <label><img src="/img/tech-setup/form-icons/os-x/apple.png" alt="Apple Logo"><br>
-			            <input type="checkbox" name="computer-os-mac" value="Macintosh OS X   "><br>Macintosh <span>OS X</span></label>
+			            <input type="checkbox" name="computer-os-mac" value="Macintosh OS X"><br>Macintosh <span>OS X</span></label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
 	            		<label><img src="/img/tech-setup/form-icons/windows/microsoft.png" alt="Microsoft Logo"><br>
-			            <input type="checkbox" name="computer-os-windows" value="Microsoft Windows   "><br>Microsoft Windows</label>
+			            <input type="checkbox" name="computer-os-windows" value="Microsoft Windows"><br>Microsoft Windows</label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
 						<label><img src="/img/tech-setup/form-icons/linux/linux.png" alt="Linux Penguin"><br>
-			            <input type="checkbox" name="computer-os-linux" value="Linux Distro   "><br>Linux Distro</label>
+			            <input type="checkbox" name="computer-os-linux" value="Linux Distro"><br>Linux Distro</label>
 		            </div>
 	            </div>
            </div>

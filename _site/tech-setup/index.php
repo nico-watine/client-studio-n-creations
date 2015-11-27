@@ -60,19 +60,19 @@
 				<div class="input-container">
 					<div class="input">
 			            <label><img src="/img/tech-setup/form-icons/os-x/apple.png" alt="Apple Logo"><br>
-			            <input type="checkbox" name="computer-os-mac" value="Macintosh OS X"><br>Macintosh <span>OS X</span></label>
+			            <input type="checkbox" name="computer-os-mac" value=" | Macintosh OS X"><br>Macintosh <span>OS X</span></label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
 	            		<label><img src="/img/tech-setup/form-icons/windows/microsoft.png" alt="Microsoft Logo"><br>
-			            <input type="checkbox" name="computer-os-windows" value="Microsoft Windows"><br>Microsoft Windows</label>
+			            <input type="checkbox" name="computer-os-windows" value=" | Microsoft Windows"><br>Microsoft Windows</label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
 						<label><img src="/img/tech-setup/form-icons/linux/linux.png" alt="Linux Penguin"><br>
-			            <input type="checkbox" name="computer-os-linux" value="Linux Distro"><br>Linux Distro</label>
+			            <input type="checkbox" name="computer-os-linux" value=" | Linux Distro"><br>Linux Distro</label>
 		            </div>
 	            </div>
            </div>
@@ -85,43 +85,43 @@
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/windows/xp.png" alt="Windows XP"><br>
-						<input type="checkbox" name="windows-xp" value="Windows XP   "><br>Windows XP</label>
+						<input type="checkbox" name="windows-xp" value=" | Windows XP"><br>Windows XP</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/windows/vista.png" alt="Windows Vista"><br>
-						<input type="checkbox" name="windows-vista" value="Windows Vista   "><br>Windows Vista</label>
+						<input type="checkbox" name="windows-vista" value=" | Windows Vista"><br>Windows Vista</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/windows/7.png" alt="Windows 7"><br>
-						<input type="checkbox" name="windows-7" value="Windows 7   "><br>Windows 7</label>
+						<input type="checkbox" name="windows-7" value=" | Windows 7"><br>Windows 7</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/windows/8.png" alt="Windows 8"><br>
-						<input type="checkbox" name="windows-8" value="Windows 8   "><br>Windows 8</label>
+						<input type="checkbox" name="windows-8" value=" | Windows 8"><br>Windows 8</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/windows/8-1.png" alt="Windows 8-1"><br>
-						<input type="checkbox" name="windows-8-1" value="Windows 8-1   "><br>Windows 8.1</label>
+						<input type="checkbox" name="windows-8-1" value=" | Windows 8-1"><br>Windows 8.1</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/windows/10.png" alt="Windows 10"><br>
-						<input type="checkbox" name="windows-10" value="Windows 10   "><br>Windows 10</label>
+						<input type="checkbox" name="windows-10" value=" | Windows 10"><br>Windows 10</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
-						<input type="checkbox" name="windows-unsure" value="Windows Unsure"><br>Unsure</label>
+						<input type="checkbox" name="windows-unsure" value=" | Windows Unsure"><br>Unsure</label>
 					</div>
 				</div>
 			</div>
@@ -134,43 +134,43 @@
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/os-x/snow-leopard.png" alt="Snow Leopard"><br>
-						<input type="checkbox" name="snow-leopard" value="Snow Leopard   "><br>10.6 <br> Snow Leopard</label>
+						<input type="checkbox" name="snow-leopard" value=" | Snow Leopard"><br>10.6 <br> Snow Leopard</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/os-x/lion.png" alt="Lion"><br>
-						<input type="checkbox" name="lion" value="Lion   "><br>10.7 <br> Lion</label>
+						<input type="checkbox" name="lion" value=" | Lion"><br>10.7 <br> Lion</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/os-x/mountain-lion.png" alt="Mountain Lion"><br>
-						<input type="checkbox" name="mountain-lion" value="Mountain Lion   "><br>10.8 <br> Mountain Lion</label>
+						<input type="checkbox" name="mountain-lion" value=" | Mountain Lion"><br>10.8 <br> Mountain Lion</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/os-x/mavericks.png" alt="Mavericks"><br>
-						<input type="checkbox" name="mavericks" value="Mavericks   "><br>10.9 <br> Mavericks</label>
+						<input type="checkbox" name="mavericks" value=" | Mavericks"><br>10.9 <br> Mavericks</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/os-x/yosemite.png" alt="Yosemite"><br>
-						<input type="checkbox" name="yosemite" value="Yosemite   "><br>10.10 <br> Yosemite</label>
+						<input type="checkbox" name="yosemite" value=" | Yosemite"><br>10.10 <br> Yosemite</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/os-x/el-capitan.png" alt="el-capitan"><br>
-						<input type="checkbox" name="el-capitan" value="El Capitan   "><br>10.11 <br> El Capitan</label>
+						<input type="checkbox" name="el-capitan" value=" | El Capitan"><br>10.11 <br> El Capitan</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
-						<input type="checkbox" name="mac-unsure" value="Mac Unsure   "><br> Unsure <br>&nbsp;</label>
+						<input type="checkbox" name="mac-unsure" value=" | Mac Unsure"><br> Unsure <br>&nbsp;</label>
 					</div>
 				</div>
 			</div>
@@ -184,19 +184,19 @@
 					<div class="input-container">
 						<div class="input">
 							<label><img src="/img/tech-setup/form-icons/linux/ubuntu.png" alt="Ubuntu"><br>
-							<input type="checkbox" name="ubuntu" value="Ubuntu   "><br>Ubuntu</label>
+							<input type="checkbox" name="ubuntu" value=" | Ubuntu"><br>Ubuntu</label>
 						</div>
 					</div>
 					<div class="input-container">
 						<div class="input">
 							<label><img src="/img/tech-setup/form-icons/linux/fedora.png" alt="Fedora"><br>
-							<input type="checkbox" name="fedora" value="Fedora   "><br>Fedora</label>
+							<input type="checkbox" name="fedora" value=" | Fedora"><br>Fedora</label>
 						</div>
 					</div>
 					<div class="input-container">
 						<div class="input">
 							<label><img src="/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
-							<input type="checkbox" name="linux-other" value="Linux Other   "><br>Other</label>
+							<input type="checkbox" name="linux-other" value=" | Linux Other"><br>Other</label>
 						</div>
 					</div>
 				</div>
@@ -210,43 +210,43 @@
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/browsers/chrome.png" alt="Chrome"><br>
-						<input type="checkbox" name="chrome" value="Chrome   "><br>Chrome</label>
+						<input type="checkbox" name="chrome" value=" | Chrome"><br>Chrome</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/browsers/safari.png" alt="Safari"><br>
-						<input type="checkbox" name="safari" value="Safari   "><br>Safari</label>
+						<input type="checkbox" name="safari" value=" | Safari"><br>Safari</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/browsers/internet-explorer.png" alt="Internet Explorer"><br>
-						<input type="checkbox" name="internet-explorer" value="Internet Explorer   "><br>Internet Explorer</label>
+						<input type="checkbox" name="internet-explorer" value=" | Internet Explorer"><br>Internet Explorer</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/browsers/firefox.png" alt="Firefox"><br>
-						<input type="checkbox" name="firefox" value="Firefox   "><br>Firefox</label>
+						<input type="checkbox" name="firefox" value=" | Firefox"><br>Firefox</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/browsers/opera.png" alt="Opera"><br>
-						<input type="checkbox" name="opera" value="Opera   "><br>Opera</label>
+						<input type="checkbox" name="opera" value=" | Opera"><br>Opera</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/browsers/edge.png" alt="Microsoft Edge"><br>
-						<input type="checkbox" name="microsoft-edge" value="Microsoft Edge   "><br>Microsoft Edge</label>
+						<input type="checkbox" name="microsoft-edge" value=" | Microsoft Edge"><br>Microsoft Edge</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
 						<label><img src="/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
-						<input type="checkbox" name="browser-unsure" value="Unsure   "><br>Unsure</label>
+						<input type="checkbox" name="browser-unsure" value=" | Unsure"><br>Unsure</label>
 					</div>
 				</div>
 			</div>

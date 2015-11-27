@@ -27,12 +27,12 @@
 			<hr>
 		</div>
 	</div>
-	<form name="myform" id="tech-form" action="tech-form.php" enctype="multipart/form-data" method="post" /> 
+	<form name="tech-form" id="tech-form" action="tech-form" enctype="multipart/form-data" method="post" /> 
 		<div class="form-row" id="name">
 			<label class="question">Your Name</label>
 			<div class="row">
 				<div class="input-container">
-					<input  type="text" name="name" placeholder="Your Name" />
+					<input type="text" name="name" placeholder="Your Name" />
 				</div>
 			</div>
 		</div>

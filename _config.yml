@@ -21,6 +21,6 @@ end_comment: -->
 
 # CDN-PRODUCTION BRANCH
 # client_cdn: 		http://cdn.studioncreations.com/client
-# site_cdn:         http://cdn.studioncreations.com
+# snc_cdn:         http://cdn.studioncreations.com
 # start_comment: 
 # end_comment: 

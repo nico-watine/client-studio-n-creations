@@ -6,8 +6,7 @@
 <header>
 	<div class="row" id="nav-bar">
 		<a href="http://studioncreations.com" class="title" id="index-link"><span id="large">Studio N Creations</span><span id="mini">SNC</span></a>
-		<div id="button-wrapper">
-		</div>
+		<div id="button-wrapper"></div>
 	</div>
 </header>
 
@@ -28,7 +27,7 @@
 			<hr>
 		</div>
 	</div>
-	<form name="myform" id="tech-form" action="submit-form.php" enctype="multipart/form-data" method="post" /> 
+	<form name="myform" id="tech-form" action="tech-form.php" enctype="multipart/form-data" method="post" /> 
 		<div class="form-row" id="name">
 			<label class="question">Your Name</label>
 			<div class="row">

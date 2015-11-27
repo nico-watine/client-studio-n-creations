@@ -6,15 +6,15 @@
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
-	<!--<link rel="preconnect" href="http://cdn.studioncreations.com">-->
+	<link rel="preconnect" href="http://cdn.studioncreations.com">
 	<title>Tech Setup Survey | Studio N Creations</title>
 	<meta name="description" content="3 quick questions and then it's time to get started." />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/plain" rel="author" href="/humans.txt">
 	
-	<link rel="stylesheet" href="<?php autoVer('/css/core.css'); ?>" />
-	<link rel="stylesheet" href="<?php autoVer('/css/pages.css'); ?>" />
+	<link rel="stylesheet" href="http://cdn.studioncreations.com<?php autoVer('/css/core.css'); ?>" />
+	<link rel="stylesheet" href="http://cdn.studioncreations.com/client<?php autoVer('/css/pages.css'); ?>" />
 </head>
 
 <body id="tech-setup">
@@ -22,8 +22,7 @@
 <header>
 	<div class="row" id="nav-bar">
 		<a href="http://studioncreations.com" class="title" id="index-link"><span id="large">Studio N Creations</span><span id="mini">SNC</span></a>
-		<div id="button-wrapper">
-		</div>
+		<div id="button-wrapper"></div>
 	</div>
 </header>
 
@@ -44,7 +43,7 @@
 			<hr>
 		</div>
 	</div>
-	<form name="myform" id="tech-form" action="submit-form.php" enctype="multipart/form-data" method="post" /> 
+	<form name="myform" id="tech-form" action="tech-form.php" enctype="multipart/form-data" method="post" /> 
 		<div class="form-row" id="name">
 			<label class="question">Your Name</label>
 			<div class="row">
@@ -60,19 +59,19 @@
 			<div class="row">
 				<div class="input-container">
 					<div class="input">
-			            <label><img src="/img/tech-setup/form-icons/os-x/apple.png" alt="Apple Logo"><br>
+			            <label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/os-x/apple.png" alt="Apple Logo"><br>
 			            <input type="checkbox" name="computer-os-mac" value="Macintosh OS X   "><br>Macintosh <span>OS X</span></label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
-	            		<label><img src="/img/tech-setup/form-icons/windows/microsoft.png" alt="Microsoft Logo"><br>
+	            		<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/windows/microsoft.png" alt="Microsoft Logo"><br>
 			            <input type="checkbox" name="computer-os-windows" value="Microsoft Windows   "><br>Microsoft Windows</label>
 		            </div>
 	            </div>
 	            <div class="input-container">
 	            	<div class="input">
-						<label><img src="/img/tech-setup/form-icons/linux/linux.png" alt="Linux Penguin"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/linux/linux.png" alt="Linux Penguin"><br>
 			            <input type="checkbox" name="computer-os-linux" value="Linux Distro   "><br>Linux Distro</label>
 		            </div>
 	            </div>
@@ -85,43 +84,43 @@
 			<div class="row">
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/windows/xp.png" alt="Windows XP"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/windows/xp.png" alt="Windows XP"><br>
 						<input type="checkbox" name="windows-xp" value="Windows XP   "><br>Windows XP</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/windows/vista.png" alt="Windows Vista"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/windows/vista.png" alt="Windows Vista"><br>
 						<input type="checkbox" name="windows-vista" value="Windows Vista   "><br>Windows Vista</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/windows/7.png" alt="Windows 7"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/windows/7.png" alt="Windows 7"><br>
 						<input type="checkbox" name="windows-7" value="Windows 7   "><br>Windows 7</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/windows/8.png" alt="Windows 8"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/windows/8.png" alt="Windows 8"><br>
 						<input type="checkbox" name="windows-8" value="Windows 8   "><br>Windows 8</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/windows/8-1.png" alt="Windows 8-1"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/windows/8-1.png" alt="Windows 8-1"><br>
 						<input type="checkbox" name="windows-8-1" value="Windows 8-1   "><br>Windows 8.1</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/windows/10.png" alt="Windows 10"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/windows/10.png" alt="Windows 10"><br>
 						<input type="checkbox" name="windows-10" value="Windows 10   "><br>Windows 10</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
 						<input type="checkbox" name="windows-unsure" value="Windows Unsure"><br>Unsure</label>
 					</div>
 				</div>
@@ -134,43 +133,43 @@
 			<div class="row">
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/os-x/snow-leopard.png" alt="Snow Leopard"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/os-x/snow-leopard.png" alt="Snow Leopard"><br>
 						<input type="checkbox" name="snow-leopard" value="Snow Leopard   "><br>10.6 <br> Snow Leopard</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/os-x/lion.png" alt="Lion"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/os-x/lion.png" alt="Lion"><br>
 						<input type="checkbox" name="lion" value="Lion   "><br>10.7 <br> Lion</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/os-x/mountain-lion.png" alt="Mountain Lion"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/os-x/mountain-lion.png" alt="Mountain Lion"><br>
 						<input type="checkbox" name="mountain-lion" value="Mountain Lion   "><br>10.8 <br> Mountain Lion</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/os-x/mavericks.png" alt="Mavericks"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/os-x/mavericks.png" alt="Mavericks"><br>
 						<input type="checkbox" name="mavericks" value="Mavericks   "><br>10.9 <br> Mavericks</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/os-x/yosemite.png" alt="Yosemite"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/os-x/yosemite.png" alt="Yosemite"><br>
 						<input type="checkbox" name="yosemite" value="Yosemite   "><br>10.10 <br> Yosemite</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/os-x/el-capitan.png" alt="el-capitan"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/os-x/el-capitan.png" alt="el-capitan"><br>
 						<input type="checkbox" name="el-capitan" value="El Capitan   "><br>10.11 <br> El Capitan</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
 						<input type="checkbox" name="mac-unsure" value="Mac Unsure   "><br> Unsure <br>&nbsp;</label>
 					</div>
 				</div>
@@ -184,19 +183,19 @@
 				<div class="row-content">
 					<div class="input-container">
 						<div class="input">
-							<label><img src="/img/tech-setup/form-icons/linux/ubuntu.png" alt="Ubuntu"><br>
+							<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/linux/ubuntu.png" alt="Ubuntu"><br>
 							<input type="checkbox" name="ubuntu" value="Ubuntu   "><br>Ubuntu</label>
 						</div>
 					</div>
 					<div class="input-container">
 						<div class="input">
-							<label><img src="/img/tech-setup/form-icons/linux/fedora.png" alt="Fedora"><br>
+							<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/linux/fedora.png" alt="Fedora"><br>
 							<input type="checkbox" name="fedora" value="Fedora   "><br>Fedora</label>
 						</div>
 					</div>
 					<div class="input-container">
 						<div class="input">
-							<label><img src="/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
+							<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
 							<input type="checkbox" name="linux-other" value="Linux Other   "><br>Other</label>
 						</div>
 					</div>
@@ -210,43 +209,43 @@
 			<div class="row">
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/browsers/chrome.png" alt="Chrome"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/browsers/chrome.png" alt="Chrome"><br>
 						<input type="checkbox" name="chrome" value="Chrome   "><br>Chrome</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/browsers/safari.png" alt="Safari"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/browsers/safari.png" alt="Safari"><br>
 						<input type="checkbox" name="safari" value="Safari   "><br>Safari</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/browsers/internet-explorer.png" alt="Internet Explorer"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/browsers/internet-explorer.png" alt="Internet Explorer"><br>
 						<input type="checkbox" name="internet-explorer" value="Internet Explorer   "><br>Internet Explorer</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/browsers/firefox.png" alt="Firefox"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/browsers/firefox.png" alt="Firefox"><br>
 						<input type="checkbox" name="firefox" value="Firefox   "><br>Firefox</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/browsers/opera.png" alt="Opera"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/browsers/opera.png" alt="Opera"><br>
 						<input type="checkbox" name="opera" value="Opera   "><br>Opera</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/browsers/edge.png" alt="Microsoft Edge"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/browsers/edge.png" alt="Microsoft Edge"><br>
 						<input type="checkbox" name="microsoft-edge" value="Microsoft Edge   "><br>Microsoft Edge</label>
 					</div>
 				</div>
 				<div class="input-container">
 					<div class="input">
-						<label><img src="/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
+						<label><img src="http://cdn.studioncreations.com/client/img/tech-setup/form-icons/unsure.png" alt="Unsure"><br>
 						<input type="checkbox" name="browser-unsure" value="Unsure   "><br>Unsure</label>
 					</div>
 				</div>

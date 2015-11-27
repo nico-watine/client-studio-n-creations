@@ -5,7 +5,8 @@ $mailheader = "From: ".$_POST["email"]."\n";
 $mailheader .= "Reply-To: ".$_POST["email"]."\n";  
 $MESSAGE_BODY = "Name: " . $_POST["name"] . "\n"; 
 $MESSAGE_BODY .= "Computer OS:   " . ($_POST["computer-os-mac"]) . ($_POST["computer-os-windows"]) . ($_POST["computer-os-linux"]) . "\n"; 
-$MESSAGE_BODY .= "Windows Version:   " . $_POST["windows-xp"] . $_POST["windows-vista"] . $_POST["windows-7"] . $_POST["windows-8"] . $_POST["windows-8-1"] . $_POST["windows-10"] . $_POST["windows-unsure"];
+$MESSAGE_BODY .= "Windows Version:   " . $_POST["windows-xp"] . $_POST["windows-vista"] . $_POST["windows-7"] . $_POST["windows-8"] . $_POST["windows-8-1"] . $_POST["windows-10"] . $_POST["windows-unsure"] . "\n";
+$MESSAGE_BODY .= "Mac OS X Version:   " . $_POST["snow-leopard"] . $_POST["lion"] . $_POST["mountain-lion"] . $_POST["mavericks"] . $_POST["yosemite"] . $_POST["el-capitan"] . $_POST["mac-unsure"];
 mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Error!"); 
 
 header("Location: thanks.php");
